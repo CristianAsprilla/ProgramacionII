@@ -10,3 +10,4 @@ content:
   - quiz_terminal
   - quiz_test_escritorio_input
   - quiz_test_escritorio_print
+  - output_task_creararchivo
