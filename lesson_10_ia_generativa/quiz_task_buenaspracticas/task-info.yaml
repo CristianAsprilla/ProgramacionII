@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Confiar siempre en el código que genera la IA porque es muy precisa.
+    is_correct: false
+  - text: "Revisar, probar y entender el código antes de usarlo en tus proyectos."
+    is_correct: true
+  - text: Copiar y pegar el código sin verificar para ahorrar tiempo.
+    is_correct: false
+  - text: Usar la IA solo para tareas que no entendés en absoluto.
+    is_correct: false
+message_correct: "¡Correcto! Aunque la IA generativa es una herramienta muy útil,\
+  \ **siempre** hay que revisar, probar y entender el código antes de incluirlo en\
+  \ un proyecto. La IA puede cometer errores o generar soluciones que no resuelven\
+  \ exactamente tu problema."
+message_incorrect: "Repensá tu respuesta. La IA generativa es potente pero no es perfecta:\
+  \ puede equivocarse, generar código inseguro o proponer soluciones que no encajan\
+  \ con tu problema. El criterio humano siempre es necesario."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz: buenas prácticas con IA generativa"
+local_check: true

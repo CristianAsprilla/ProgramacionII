@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Hola Mundo
+    is_correct: false
+  - text: HolaMundo
+    is_correct: true
+  - text: Hola+Mundo
+    is_correct: false
+  - text: "Error: no se puede concatenar"
+    is_correct: false
+message_correct: "Correcto. En Python, el operador + entre dos strings los concatena\
+  \ directamente sin agregar espacio. 'Hola' + 'Mundo' produce 'HolaMundo'."
+message_incorrect: "Pista: en Python el operador + entre dos strings concatena sin\
+  \ agregar espacio entre ellos. Probalo mentalmente: 'Hola' + 'Mundo' = ?"
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz de escritorio: concatenacion de strings"
+local_check: true

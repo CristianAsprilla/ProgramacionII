@@ -1,0 +1,14 @@
+type: edu
+custom_name: "Ejercicio: contar palabras reservadas"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 325
+        length: 34
+        placeholder_text: "# TODO: implementa la logica aqui"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

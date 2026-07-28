@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Excelente
+    is_correct: false
+  - text: Aprobado
+    is_correct: true
+  - text: Reprobado
+    is_correct: false
+  - text: No imprime nada
+    is_correct: false
+message_correct: "4.2 no es >= 4.5, pero si es >= 3.0, asi que imprime 'Aprobado'."
+message_incorrect: "4.2 esta entre 3.0 y 4.5, asi que la condicion del elif se cumple."
+files:
+  - name: main.py
+    visible: true
+custom_name: Trazar codigo con if/elif
+local_check: true

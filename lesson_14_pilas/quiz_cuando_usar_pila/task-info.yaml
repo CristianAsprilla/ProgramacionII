@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Validar parentesis balanceados en una expresion.
+    is_correct: true
+  - text: Buscar el mayor elemento de una lista.
+    is_correct: false
+  - text: Ordenar alfabeticamente nombres.
+    is_correct: false
+  - text: Calcular el promedio de notas.
+    is_correct: false
+message_correct: "Correcto. Las pilas son perfectas para validar parentesis, llaves\
+  \ y corchetes balanceados: cada apertura se apila, cada cierre desapila y verifica\
+  \ que coincida."
+message_incorrect: "Pista: pensa en algo donde lo ultimo que se abre debe ser lo primero\
+  \ que se cierre. Eso es LIFO."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz: cuando usar una pila"
+local_check: true

@@ -1,0 +1,14 @@
+type: edu
+custom_name: "Ejercicio: area de un circulo"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 238
+        length: 53
+        placeholder_text: "# TODO: usa math.pi y la formula area = pi * r**2"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

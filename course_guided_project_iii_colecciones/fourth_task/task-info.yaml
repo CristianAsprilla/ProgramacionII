@@ -1,0 +1,45 @@
+type: edu
+custom_name: "Paso 4: Matriz de ventas y menú final"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 405
+        length: 14
+        placeholder_text: "# agregar prod"
+      - offset: 530
+        length: 14
+        placeholder_text: "# buscar prod"
+      - offset: 656
+        length: 14
+        placeholder_text: "# actualizar stock"
+      - offset: 1145
+        length: 14
+        placeholder_text: "# registrar op"
+      - offset: 1294
+        length: 14
+        placeholder_text: "# formatear hist"
+      - offset: 1567
+        length: 14
+        placeholder_text: "# apilar op"
+      - offset: 1768
+        length: 14
+        placeholder_text: "# deshacer pop"
+      - offset: 2462
+        length: 68
+        placeholder_text: "# validar y add venta"
+      - offset: 2880
+        length: 58
+        placeholder_text: "# formatear reporte"
+      - offset: 3668
+        length: 50
+        placeholder_text: "# match op"
+      - offset: 4093
+        length: 64
+        placeholder_text: "# while True"
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

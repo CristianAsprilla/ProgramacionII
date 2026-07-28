@@ -1,0 +1,14 @@
+type: output
+custom_name: "Reto: paréntesis balanceados con pila"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 0
+        length: 95
+        placeholder_text: "Lee una expresión y usa una pila para validar paréntesis, corchetes\
+      \ y llaves."
+  - name: tests/input.txt
+    visible: false
+  - name: tests/output.txt
+    visible: false

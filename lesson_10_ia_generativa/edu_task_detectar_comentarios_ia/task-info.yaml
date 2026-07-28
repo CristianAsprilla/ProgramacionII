@@ -1,0 +1,14 @@
+type: edu
+custom_name: "Ejercicio: detectar comentarios redundantes de IA"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 339
+        length: 75
+        placeholder_text: "# TODO: detecta patrones como 'esta funcion...' o 'ahora retornamos...'"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

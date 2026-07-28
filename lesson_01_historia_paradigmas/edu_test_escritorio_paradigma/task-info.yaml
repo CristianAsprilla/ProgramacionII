@@ -1,0 +1,14 @@
+type: edu
+custom_name: "Ejercicio: prueba de escritorio de paradigmas"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 341
+        length: 64
+        placeholder_text: "# TODO: analiza el codigo y predice el output segun el paradigma"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

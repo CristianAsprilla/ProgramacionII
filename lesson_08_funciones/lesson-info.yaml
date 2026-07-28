@@ -1,0 +1,13 @@
+custom_name: "Leccion 8: Funciones"
+content:
+  - theory_task
+  - edu_task
+  - edu_task_area_circulo
+  - edu_task_funcionesvariadas
+  - edu_task_recursion
+  - output_task_volumen_caja
+  - quiz_parametros
+  - quiz_task_parametros
+  - quiz_test_escritorio_parametros_default
+  - quiz_test_escritorio_recursion
+  - quiz_test_escritorio_return

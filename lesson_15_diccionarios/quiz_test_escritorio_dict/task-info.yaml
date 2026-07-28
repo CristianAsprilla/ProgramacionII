@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: 17
+    is_correct: true
+  - text: KeyError
+    is_correct: false
+  - text: None
+    is_correct: false
+  - text: '''edad'''
+    is_correct: false
+message_correct: "Correcto. d['edad'] = 17, asi que d['edad'] devuelve 17. A diferencia\
+  \ de d.get('edad'), esto SI lanza KeyError si la clave no existe."
+message_incorrect: "Pista: d['edad'] accede al valor asociado a la clave 'edad'. Como\
+  \ previamente d['edad'] = 17, devuelve 17."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz de escritorio: acceso a diccionario"
+local_check: true

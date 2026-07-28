@@ -1,0 +1,14 @@
+type: edu
+custom_name: "Práctica: clase Pila y paréntesis balanceados"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 227
+        length: 59
+        placeholder_text: "# TODO: implementa los metodos de la clase Pila"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

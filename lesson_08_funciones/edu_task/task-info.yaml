@@ -1,0 +1,14 @@
+type: edu
+custom_name: Calculá el factorial
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 237
+        length: 42
+        placeholder_text: "# TODO: calcula y devuelve n factorial"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

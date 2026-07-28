@@ -1,0 +1,1 @@
+Nombre: Juan, Edad: 20, Nota: 4.5

@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "[4.5, 4.0, 4.8]"
+    is_correct: false
+  - text: "[4.0, 4.8]"
+    is_correct: true
+  - text: "[4.0, 4.8, 3.9]"
+    is_correct: false
+  - text: "[4.8, 3.9, 5.0]"
+    is_correct: false
+message_correct: "¡Correcto! El rebanado notas[1:3] toma el índice 1 (incluido) hasta\
+  \ el 3 (excluido), por eso devuelve [4.0, 4.8]."
+message_incorrect: "Recuerda que el índice de fin en el rebanado se excluye; notas[1:3]\
+  \ no incluye el elemento en la posición 3."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz: rebanado de listas en Python"
+local_check: true

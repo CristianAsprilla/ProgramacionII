@@ -1,0 +1,14 @@
+type: edu
+custom_name: "Ejercicio: contar lineas de codigo"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 303
+        length: 58
+        placeholder_text: "# TODO: cuenta lineas que no son comentarios ni vacias"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

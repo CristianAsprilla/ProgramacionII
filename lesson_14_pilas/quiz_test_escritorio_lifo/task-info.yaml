@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: 3
+    is_correct: true
+  - text: 1
+    is_correct: false
+  - text: 2
+    is_correct: false
+  - text: "Error: pila vacia"
+    is_correct: false
+message_correct: "Correcto. En una pila LIFO, pop() quita el ultimo elemento agregado.\
+  \ Se apilo 1, luego 2, luego 3. pop() devuelve 3."
+message_incorrect: "Pista: en una pila LIFO (Last In, First Out), pop() quita el ULTIMO\
+  \ elemento agregado, que fue el 3."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz de escritorio: comportamiento LIFO"
+local_check: true

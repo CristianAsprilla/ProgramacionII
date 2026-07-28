@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "Imprime 'Hola, Juan'."
+    is_correct: true
+  - text: "Imprime 'Hola, input()'."
+    is_correct: false
+  - text: "Imprime 'Hola, ' sin el nombre."
+    is_correct: false
+  - text: "Error: input() no devuelve un string."
+    is_correct: false
+message_correct: "Correcto. input() lee una linea de texto desde el teclado y la retorna\
+  \ como string. Si el usuario escribe 'Juan', la variable x vale 'Juan' y print()\
+  \ imprime 'Hola, Juan'."
+message_incorrect: "Pista: input() lee una linea de texto y la retorna como string.\
+  \ Despues se concatena con 'Hola, ' usando +."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz de escritorio: input y concatenacion"
+local_check: true

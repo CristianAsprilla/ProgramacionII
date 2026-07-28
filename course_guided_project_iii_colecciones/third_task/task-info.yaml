@@ -1,0 +1,33 @@
+type: edu
+custom_name: "Paso 3: Pila para deshacer (undo)"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 405
+        length: 14
+        placeholder_text: "# agregar prod"
+      - offset: 530
+        length: 14
+        placeholder_text: "# buscar prod"
+      - offset: 656
+        length: 14
+        placeholder_text: "# actualizar stock"
+      - offset: 1145
+        length: 14
+        placeholder_text: "# registrar op"
+      - offset: 1294
+        length: 14
+        placeholder_text: "# formatear hist"
+      - offset: 1711
+        length: 66
+        placeholder_text: "# apilar op"
+      - offset: 2119
+        length: 44
+        placeholder_text: "# deshacer pop"
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Extraer el calculo a una funcion llamada calcular_total().
+    is_correct: true
+  - text: "Dejar el codigo como esta, funciona bien."
+    is_correct: false
+  - text: Agregar mas comentarios para explicarlo.
+    is_correct: false
+  - text: Convertir todas las variables a globales.
+    is_correct: false
+message_correct: "Correcto. La refactorizacion mas limpia es extraer el calculo a\
+  \ una funcion nombrada. Asi el codigo es mas legible, testeable y reutilizable."
+message_incorrect: "Pista: la refactorizacion busca hacer el codigo mas legible y\
+  \ mantenible. Extraer logica repetida a una funcion nombrada es la mejor practica."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz de escritorio: refactorizacion"
+local_check: true

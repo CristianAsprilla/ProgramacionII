@@ -1,0 +1,14 @@
+type: edu
+custom_name: "Ejercicio: suma de la diagonal secundaria"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 422
+        length: 66
+        placeholder_text: "# TODO: suma los elementos matriz[i][n-1-i] para i en range(n)"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

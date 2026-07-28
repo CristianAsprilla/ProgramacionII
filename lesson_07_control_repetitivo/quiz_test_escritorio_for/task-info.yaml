@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: 0 1 2
+    is_correct: false
+  - text: '0 1 2 '
+    is_correct: true
+  - text: "0, 1, 2"
+    is_correct: false
+  - text: Error
+    is_correct: false
+message_correct: "Correcto. range(3) genera 0, 1, 2. El parametro end=' ' hace que\
+  \ print agregue un espacio en vez de un salto de linea, asi que se imprime '0 1\
+  \ 2 ' (con espacio final)."
+message_incorrect: "Pista: range(3) genera 0, 1, 2. El argumento end=' ' en print\
+  \ evita el salto de linea y agrega un espacio entre numeros."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz de escritorio: bucle for"
+local_check: true

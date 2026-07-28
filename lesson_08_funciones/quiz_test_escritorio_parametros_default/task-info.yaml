@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "Hola, Ana"
+    is_correct: false
+  - text: "Hola, Maria"
+    is_correct: true
+  - text: "Error: falta argumento"
+    is_correct: false
+  - text: "Hola, None"
+    is_correct: false
+message_correct: "Correcto. El parametro 'nombre' tiene valor por defecto 'Maria',\
+  \ pero al llamar a saludar('Ana'), se usa 'Ana'. Asi imprime 'Hola, Ana'."
+message_incorrect: "Pista: cuando llamas a una funcion con argumento, ese argumento\
+  \ reemplaza al valor por defecto. saludar('Ana') usa 'Ana', no 'Maria'."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz de escritorio: parametros por defecto"
+local_check: true

@@ -1,0 +1,14 @@
+type: edu
+custom_name: "Ejercicio: verificar version de Python"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 304
+        length: 57
+        placeholder_text: "# TODO: extrae major y minor, retorna True si >= 3.10"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

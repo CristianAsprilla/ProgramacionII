@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Hacé una funcion
+    is_correct: false
+  - text: "Escribi una funcion en Python llamada 'sumar' que reciba dos numeros enteros\
+    \ (a, b) y retorne su suma. Incluí type hints y un docstring."
+    is_correct: true
+  - text: Necesito codigo Python
+    is_correct: false
+  - text: Copiame esto de Stack Overflow
+    is_correct: false
+message_correct: "Un buen prompt es claro, especifico y da contexto. Incluir nombre,\
+  \ parametros, tipo de retorno y documentacion mejora la respuesta."
+message_incorrect: "Un buen prompt debe ser especifico: nombre, tipo de parametros,\
+  \ tipo de retorno y contexto."
+files:
+  - name: main.py
+    visible: true
+custom_name: Buenas practicas al pedir codigo a una IA
+local_check: true

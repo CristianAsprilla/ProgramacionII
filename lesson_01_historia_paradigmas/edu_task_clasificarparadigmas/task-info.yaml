@@ -1,0 +1,15 @@
+type: edu
+custom_name: "Ejercicio: clasificar paradigmas"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 445
+        length: 76
+        placeholder_text: "# TODO: implementa la deteccion de paradigma basandote en palabras\
+      \ clave"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

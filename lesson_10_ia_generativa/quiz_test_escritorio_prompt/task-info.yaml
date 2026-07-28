@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Pedir solo 'hacé una funcion' sin contexto.
+    is_correct: false
+  - text: Pedir 'hacé una funcion que sume dos numeros y retorne el resultado'.
+    is_correct: true
+  - text: Copiar el codigo de Stack Overflow y pedir que lo arregle.
+    is_correct: false
+  - text: Escribir todo en mayusculas porque la IA lee mas rapido.
+    is_correct: false
+message_correct: "Correcto. Un buen prompt debe ser claro, especifico y dar contexto.\
+  \ Decir exactamente que queres (sumar dos numeros) y que retorne el resultado es\
+  \ lo ideal."
+message_incorrect: "Pista: un buen prompt para IA es claro y especifico. Cuanta mas\
+  \ informacion util des, mejor sera la respuesta."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz: buenas practicas con prompts de IA"
+local_check: true

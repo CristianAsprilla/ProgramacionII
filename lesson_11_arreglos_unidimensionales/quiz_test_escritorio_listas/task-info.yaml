@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "[1, 2, 3, 4]"
+    is_correct: true
+  - text: "[1, 2, 3]"
+    is_correct: false
+  - text: "[4, 3, 2, 1]"
+    is_correct: false
+  - text: "Error: append modifica fuera de la lista"
+    is_correct: false
+message_correct: "Correcto. lst.append(4) agrega el 4 al final de la lista, modificandola\
+  \ en su lugar. lst termina siendo [1, 2, 3, 4]."
+message_incorrect: "Pista: append modifica la lista original agregando el elemento\
+  \ al final. lst.append(4) convierte [1, 2, 3] en [1, 2, 3, 4]."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz de escritorio: append en listas"
+local_check: true

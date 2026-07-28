@@ -1,0 +1,12 @@
+custom_name: "Leccion 12: Arreglos bidimensionales (matrices)"
+content:
+  - theory_task
+  - edu_task
+  - edu_task_notasclase
+  - edu_task_suma_diagonal_secundaria
+  - edu_task_sumasfilascolumnas
+  - edu_task_transponer_matriz
+  - output_task_transpuesta
+  - quiz_acceso_matriz
+  - quiz_test_escritorio_matriz
+  - quiz_test_escritorio_matriz_anidada

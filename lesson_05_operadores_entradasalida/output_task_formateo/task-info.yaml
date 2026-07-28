@@ -1,0 +1,13 @@
+type: output
+custom_name: "Ejercicio: formateo de datos"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 79
+        length: 41
+        placeholder_text: "# TODO: completa la lectura y la salida."
+  - name: tests/input.txt
+    visible: false
+  - name: tests/output.txt
+    visible: false

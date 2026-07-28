@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "buenos dias, Maria / buenas tardes, Juan"
+    is_correct: true
+  - text: "Maria, buenos dias / Juan, buenas tardes"
+    is_correct: false
+  - text: buenos dias Maria / buenas tardes Juan
+    is_correct: false
+  - text: Error
+    is_correct: false
+message_correct: "La primera llamada usa el default 'amigo' (no se imprime), solo\
+  \ 'buenos dias, Maria'. La segunda pasa ambos argumentos."
+message_incorrect: "El orden es: primero el parametro 'nombre', despues 'hora'. La\
+  \ primera llamada solo da 'Maria' como nombre."
+files:
+  - name: main.py
+    visible: true
+custom_name: Parametros predeterminados
+local_check: true

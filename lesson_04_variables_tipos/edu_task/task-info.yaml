@@ -1,0 +1,15 @@
+type: edu
+custom_name: "Ejercicio: área y perímetro de un rectángulo"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 363
+        length: 74
+        placeholder_text: "# TODO: calcula el area (base * altura) y perimetro (2 * (base\
+      \ + altura))"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

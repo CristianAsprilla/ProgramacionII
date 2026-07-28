@@ -1,0 +1,12 @@
+custom_name: "Leccion 6: Estructuras de control alternativas"
+content:
+  - theory_task
+  - edu_task
+  - edu_task_calculadoraimc
+  - edu_task_edad_categoria
+  - edu_test_escritorio_ternario
+  - output_task_clima
+  - quiz_condicionales
+  - quiz_test_escritorio_if
+  - quiz_test_escritorio_match
+  - quiz_trazar_codigo

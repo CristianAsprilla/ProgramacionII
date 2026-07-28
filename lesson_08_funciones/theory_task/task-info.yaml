@@ -1,0 +1,5 @@
+type: theory
+custom_name: Funciones reutilizables
+files:
+  - name: main.py
+    visible: true

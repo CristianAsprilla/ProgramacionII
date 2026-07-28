@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: math
+    is_correct: false
+  - text: random
+    is_correct: false
+  - text: json
+    is_correct: false
+  - text: numpy
+    is_correct: true
+message_correct: "Correcto. numpy NO es parte de la biblioteca estandar: es una biblioteca\
+  \ externa que se debe instalar con pip. math, random y json vienen preinstalados\
+  \ con Python."
+message_incorrect: "Pista: math, random y json vienen con Python. La unica opcion\
+  \ que se debe instalar por separado con pip es la de procesamiento numerico avanzado."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz: biblioteca estandar de Python"
+local_check: true

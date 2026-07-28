@@ -1,0 +1,14 @@
+type: output
+custom_name: "Reto: crear un archivo desde terminal"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 196
+        length: 81
+        placeholder_text: "# TODO: lee un nombre de archivo desde stdin y muestra \"Archivo\
+      \ creado: <nombre>\""
+  - name: tests/output.txt
+    visible: false
+  - name: tests/input.txt
+    visible: false

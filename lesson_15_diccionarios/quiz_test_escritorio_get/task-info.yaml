@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "KeyError: 'ciudad'"
+    is_correct: false
+  - text: None
+    is_correct: true
+  - text: '''No especificado'''
+    is_correct: false
+  - text: "Error: indice fuera de rango"
+    is_correct: false
+message_correct: "Correcto. d.get('ciudad') retorna None porque la clave no existe\
+  \ (y no lanza error). d.get('ciudad', 'No especificado') retornaria 'No especificado'."
+message_incorrect: "Pista: a diferencia de d['ciudad'] (que lanza KeyError), d.get('ciudad')\
+  \ retorna None si la clave no existe."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz de escritorio: dict.get"
+local_check: true

@@ -1,0 +1,15 @@
+type: edu
+custom_name: "Ejercicio: calculadora de IMC"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 416
+        length: 72
+        placeholder_text: "# TODO: calcula el IMC y devolvelo redondeado a 2 decimales\
+      \ con round()"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

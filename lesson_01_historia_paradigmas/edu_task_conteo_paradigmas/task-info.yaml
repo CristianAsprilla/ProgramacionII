@@ -1,0 +1,15 @@
+type: edu
+custom_name: "Ejercicio: contar paradigmas con diccionarios"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 312
+        length: 78
+        placeholder_text: "# TODO: crea un diccionario vacio, recorre la lista y cuenta\
+      \ por paradigma"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

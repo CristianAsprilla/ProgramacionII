@@ -1,0 +1,12 @@
+custom_name: "Leccion 4: Variables, constantes y tipos de datos"
+content:
+  - theory_task
+  - edu_task
+  - edu_task_intercambio
+  - edu_task_tipo_variable
+  - output_task
+  - output_task_conversion
+  - quiz_constantes
+  - quiz_test_escritorio_fstring
+  - quiz_test_escritorio_tipos
+  - quiz_tipos_dato

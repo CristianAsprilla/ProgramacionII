@@ -1,0 +1,15 @@
+type: edu
+custom_name: "Paso 6: integrar todo en main()"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 538
+        length: 90
+        placeholder_text: "# TODO: integra los pasos anteriores. Pide nombre con validacion,\
+      \ edad con validacion,"
+  - name: tests/test_task.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

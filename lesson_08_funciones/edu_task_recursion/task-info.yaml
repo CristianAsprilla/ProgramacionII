@@ -1,0 +1,14 @@
+type: edu
+custom_name: Fibonacci con recursión
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 412
+        length: 72
+        placeholder_text: "# TODO: implementa la versión recursiva (caso base + caso recursivo)"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

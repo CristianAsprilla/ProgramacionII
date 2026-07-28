@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "Lenguaje C: Dennis Ritchie"
+    is_correct: true
+  - text: "Lenguaje Python: Guido van Rossum"
+    is_correct: false
+  - text: "Lenguaje Java: James Gosling"
+    is_correct: false
+  - text: "Lenguaje BASIC: John Kemeny y Thomas Kurtz"
+    is_correct: false
+message_correct: "¡Correcto! Dennis Ritchie creo el lenguaje C en 1972 en los laboratorios\
+  \ Bell. Su influencia es enorme: el sistema operativo Unix y muchisimas bases de\
+  \ software moderno estan escritos en C."
+message_incorrect: "Pista: este lenguaje fue creado en 1972 en los laboratorios Bell\
+  \ y dio origen a muchos lenguajes modernos como C++, Java y C#."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz: creadores de lenguajes"
+local_check: true

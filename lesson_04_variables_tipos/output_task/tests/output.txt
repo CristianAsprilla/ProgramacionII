@@ -1,0 +1,2 @@
+Tipo: int
+Doble: 84

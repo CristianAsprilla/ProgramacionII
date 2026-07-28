@@ -1,0 +1,18 @@
+type: edu
+custom_name: "Paso 2: Crear la tarjeta completa"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 199
+        length: 13
+        placeholder_text: "# escribir saludo"
+      - offset: 852
+        length: 72
+        placeholder_text: "# escribir tarjeta"
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

@@ -1,0 +1,14 @@
+type: edu
+custom_name: "Ejercicio: filtrar numeros pares"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 244
+        length: 62
+        placeholder_text: "# TODO: retorna una nueva lista con solo los numeros pares"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

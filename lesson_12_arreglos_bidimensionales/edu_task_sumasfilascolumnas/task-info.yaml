@@ -1,0 +1,14 @@
+type: edu
+custom_name: "Práctica: sumas de filas y columnas"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 29
+        length: 57
+        placeholder_text: "# TODO Calcula y retorna la suma de la fila indicada."
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

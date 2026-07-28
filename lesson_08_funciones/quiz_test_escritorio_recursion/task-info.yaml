@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: 120
+    is_correct: true
+  - text: 720
+    is_correct: false
+  - text: 1
+    is_correct: false
+  - text: "Error: recursion infinita"
+    is_correct: false
+message_correct: Correcto. factorial(5) = 5 * factorial(4) = 5 * 4 * 3 * 2 * 1 = 120.
+  La recursion se detiene cuando n es 0 o 1.
+message_incorrect: "Pista: factorial(n) = n * factorial(n-1), hasta llegar a factorial(0)\
+  \ = 1. 5! = 5 * 4 * 3 * 2 * 1 = ?"
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz de escritorio: recursion (factorial)"
+local_check: true

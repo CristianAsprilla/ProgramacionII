@@ -1,0 +1,14 @@
+type: edu
+custom_name: "Práctica: verificar versión y configurar PyCharm"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 465
+        length: 47
+        placeholder_text: "# TODO: validá que sys.version_info >= (3, 10)"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

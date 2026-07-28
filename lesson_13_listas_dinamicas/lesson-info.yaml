@@ -1,0 +1,12 @@
+custom_name: "Leccion 13: Listas dinamicas"
+content:
+  - theory_task
+  - edu_task
+  - edu_task_filtrar_pares
+  - edu_task_inventario
+  - edu_task_invertir_lista
+  - edu_task_operacionescombinadas
+  - output_task_listareasaltareas
+  - quiz_complejidad
+  - quiz_test_escritorio_append
+  - quiz_test_escritorio_slice

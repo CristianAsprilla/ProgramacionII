@@ -1,0 +1,3 @@
+Diferencias encontradas:
+Linea 2: 'return a + b' vs 'x = a + b'
+Linea 3: (no existe) vs '    return x'

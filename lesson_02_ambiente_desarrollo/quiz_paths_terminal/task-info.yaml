@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Con `pwd` (print working directory)
+    is_correct: true
+  - text: Con `whereami`
+    is_correct: false
+  - text: Con `dir` (solo Windows)
+    is_correct: false
+  - text: "No se puede, solo lo sabes al iniciar"
+    is_correct: false
+message_correct: Correcto. El comando 'pwd' (print working directory) imprime en pantalla
+  la ruta completa del directorio donde estas. En Windows existe el equivalente 'cd'
+  sin argumentos.
+message_incorrect: "Pista: existe un comando corto de 3 letras (en Linux/Mac) que\
+  \ muestra la ruta completa del directorio actual."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz: ubicacion en la terminal"
+local_check: true

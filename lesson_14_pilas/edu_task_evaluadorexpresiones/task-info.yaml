@@ -1,0 +1,14 @@
+type: edu
+custom_name: "Práctica: evaluador de expresiones posfijas"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 32
+        length: 51
+        placeholder_text: "# TODO Evalúa la expresión RPN usando una pila."
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

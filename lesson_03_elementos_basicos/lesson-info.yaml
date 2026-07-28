@@ -1,0 +1,12 @@
+custom_name: "Leccion 3: Comentarios, identificadores y palabras reservadas"
+content:
+  - theory_task
+  - edu_task
+  - edu_task_contar_comentarios
+  - edu_task_ejerciciosvariados
+  - edu_task_validar_identificador
+  - output_task_analizarcodigo
+  - quiz_estilo_codigo
+  - quiz_keywords_dificiles
+  - quiz_task
+  - quiz_test_escritorio_keywords

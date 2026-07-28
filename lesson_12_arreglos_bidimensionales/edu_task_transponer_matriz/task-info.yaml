@@ -1,0 +1,14 @@
+type: edu
+custom_name: "Ejercicio: transponer una matriz"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 237
+        length: 68
+        placeholder_text: "# TODO: construye la transpuesta intercambiando filas y columnas"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

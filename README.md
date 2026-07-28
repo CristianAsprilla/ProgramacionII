@@ -1,73 +1,129 @@
+# Programación II — Currículo MEDUCA
+
 [![official project](https://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# JetBrains Academy Python Course Template
+Curso de **Programación II** del **Bachillerato Técnico** de Panamá, alineado con la planificación didáctica anual del **MEDUCA** (Ministerio de Educación de Panamá), grado 11°. Apto para cualquier colegio del país.
 
-**JetBrains Academy Python course template** is a repository that provides a
-pure template to make it easier to create a new Python course with the [JetBrains Academy
-plugin](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy) (check out the [Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) article).
+Este repositorio fue creado a partir del [template oficial de JetBrains Academy](https://github.com/JetBrains-Academy/python-course-template) y personalizado para el programa de la asignatura, con contenidos, ejercicios y ejemplos adaptados al contexto educativo panameño y al currículo del MEDUCA.
 
-This template is designed to help educators, both new and experienced, 
-quickly start developing courses by providing technical examples.
+## 📚 Sobre el curso
 
-If you're unfamiliar with the plugin, read our introduction: [What is the JetBrains Academy plugin?](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/jetbrains-academy-plugin-faq.html#what_is_the_jetbrains_academy_plugin)
+El curso sigue la planificación oficial del MEDUCA en tres trimestres, con 15 lecciones y 3 proyectos guiados.
 
-> **Note**
->
-> Click the <kbd>Use this template</kbd> button to create your own repository based on this template.
+### Trimestre I — Introducción al lenguaje y estructuras básicas
+1. Historia y paradigmas de los lenguajes de programación.
+2. Ambiente de desarrollo: instalación y configuración de Python.
+3. Elementos básicos: comentarios, identificadores y palabras reservadas.
+4. Variables, constantes y tipos de datos.
+5. Operadores, expresiones y sentencias de entrada/salida.
+- **Proyecto Guiado I**: Tarjeta de presentación del estudiante.
 
-## Docs
-Learn more about course creation with the JetBrains Academy plugin in the [Course creator start guide](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/educator-start-guide.html).
+### Trimestre II — Estructuras de control y subprogramas
+6. Estructuras alternativas: `if / elif / else`, `match / case`.
+7. Sentencias repetitivas: `for`, `while`.
+8. Funciones: definición, parámetros y retorno.
+9. Subrutinas y modularización.
+10. (Bonus) IA generativa de código: uso crítico.
+- **Proyecto Guiado II**: Calculadora de notas con menú.
 
-## Files structure
-### Course structure
+### Trimestre III — Arreglos y estructuras de datos abstractas
+11. Arreglos unidimensionales (listas).
+12. Arreglos bidimensionales (matrices).
+13. Listas dinámicas.
+14. Pilas (LIFO).
+15. Diccionarios.
+- **Proyecto Guiado III**: Sistema de inventario de la tiendita escolar.
+
+## 🎯 Competencias del MEDUCA trabajadas
+
+- **#2 Pensamiento lógico-matemático**: razonamiento, algorítmica y resolución de problemas.
+- **#4 Tratamiento de la información y competencia digital**: uso de herramientas y pensamiento crítico sobre la IA.
+- **#7 Aprender a aprender**: estrategias cognitivas, metacognitivas y autonomía.
+
+## 🧰 Estructura del repositorio
+
 ```text
 .
-├── course-info.yaml   # Contains metadata like the course title, language, etc.
-├── requirements.txt   # Python dependencies for the course.
-├── course_lesson/
-│   ├── theory_task/      # A theory-based task.
-│   ├── quiz_task         # A multiple-choice quiz task.
-│   ├── edu_task/         # A task that includes unit tests.
-│   ├── output_task/      # A task with checks through stdin/stdout
-│   └── lesson-info.yaml  # Defines the structure and order of tasks in this lesson. 
-└── course_guided_project/      # Guided project lesson
-    ├── theory_task/
-    ├── first_task/
-    ├── second_task/
-    └── lesson-info.yaml
+├── course-info.yaml                             # Metadata del curso
+├── README.md                                    # Este archivo
+├── requirements.txt                             # Dependencias de Python
+├── Plan Anual - Programación - 11 - 2026.docx  # Planificación didáctica del MEDUCA
+├── PLAN.md                                      # Plan de arquitectura del curso
+│
+├── lesson_01_historia_paradigmas/               # Trimestre I
+├── lesson_02_ambiente_desarrollo/
+├── lesson_03_elementos_basicos/
+├── lesson_04_variables_tipos/
+├── lesson_05_operadores_entradasalida/
+├── course_guided_project_i_basico/              # Proyecto guiado I
+│
+├── lesson_06_control_alternativo/               # Trimestre II
+├── lesson_07_control_repetitivo/
+├── lesson_08_funciones/
+├── lesson_09_subrutinas/
+├── lesson_10_ia_generativa/
+├── course_guided_project_ii_control/            # Proyecto guiado II
+│
+├── lesson_11_arreglos_unidimensionales/         # Trimestre III
+├── lesson_12_arreglos_bidimensionales/
+├── lesson_13_listas_dinamicas/
+├── lesson_14_pilas/
+├── lesson_15_diccionarios/
+└── course_guided_project_iii_colecciones/       # Proyecto guiado III
 ```
 
-### Typical task structure
+### Estructura típica de una lección
+
 ```text
-├── main.py         # Task source code file.
-├── task.md         # Task description text displayed by the plugin.
-├── task-info.yaml  # Contains task and placeholder metadata.
-└── tests/
-    └── test.py     # Unit tests (if applicable for the task type).
+lesson_NN_slug/
+├── lesson-info.yaml         # Nombre y orden de las tasks
+├── theory_task/             # Lección teórica (lectura)
+│   ├── task-info.yaml
+│   ├── task.md
+│   └── main.py
+├── edu_task/                # Ejercicio con tests
+│   ├── task-info.yaml
+│   ├── task.md
+│   ├── main.py              # Con placeholders para el estudiante
+│   └── tests/
+│       ├── __init__.py
+│       └── test.py
+├── quiz_task/               # Quiz de opción múltiple
+│   ├── task-info.yaml
+│   ├── task.md
+│   └── main.py
+└── output_task/             # Ejercicio con validación stdin/stdout
+    ├── task-info.yaml
+    ├── task.md
+    ├── main.py
+    └── tests/
+        ├── input.txt
+        └── output.txt
 ```
 
-## Examples of tasks
-We've included example tasks that demonstrate how to create engaging online course content. Feel free to explore each task and its associated files.
+## 🚀 Requisitos
 
-### [Theory task](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/educator-start-guide.html#theory_task) (course_lesson/theory_task/)
-Contains a minimal set of the files typically used in a task:
-- Source code file `main.py` (empty for theory tasks).
-- Text displayed in task description: `task.md`.
-- Metadata file for the current task: `task-info.yaml`.
+- Python 3.10 o superior.
+- PyCharm Educational o el plugin de JetBrains Academy instalado en tu IDE de JetBrains.
+- Ver `requirements.txt` para las dependencias específicas de cada lección.
 
-### [Multiple-choice quiz](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/educator-start-guide.html#multiple_choice_task) (course_lesson/quiz_task/)
-Similar to the theory task, but the `task-info.yaml` file contains answer options.
+## 📖 Documentación
 
-### [Task with unit tests](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/educator-start-guide.html#edu_task) (course_lesson/edu_task/)
-Includes a test file (`tests/test.py`), which is executed when the `Check` button is clicked. The [unittest](https://docs.python.org/3/library/unittest.html) testing framework is used.
-The `task-info.yaml` file contains placeholders.
+- Plugin JetBrains Academy: [https://plugins.jetbrains.com/plugin/10081-jetbrains-academy](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy)
+- Guía para creadores de cursos: [Educator start guide](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/educator-start-guide.html)
+- Documentación oficial de Python: [https://www.python.org/es/](https://www.python.org/es/)
 
-### [Output testing task](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/educator-start-guide.html#output_task) (course_lesson/output_task/)
-Indludes two files: `tests/input.txt` and `tests/output.txt`.
-When the `Check` button is clicked, the program is run with the contents of `tests/input.txt` file as an input.
-The actual output of the program is compared with the expected from the `tests/output.txt` file.
+## 📄 Licencia
 
-### [Course guided project](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/framework-lessons-guide-for-course-creators.html)
-In this lesson you can see a demonstration of a guided project in which tasks are linked together within a lesson
-, and the user's solutions in one step are transferred to the next. 
+Este proyecto se distribuye bajo la licencia MIT. Ver el archivo `LICENSE` para más detalles.
+
+## ✍️ Autoría y créditos
+
+**Material base:** El presente curso se basa en el [template oficial de JetBrains Academy](https://github.com/JetBrains-Academy/python-course-template), publicado bajo licencia MIT por **JetBrains s.r.o.** (Copyright 2023). El template provee la estructura pedagógica, las plantillas de archivos, el sistema de tests y el flujo del plugin JBA.
+
+**Adaptación y contenidos:** La personalización al currículo del Ministerio de Educación de Panamá (MEDUCA), la localización lingüística (vocabulario panameño, escala 1.0-5.0, uso de ITBMS en lugar de IVA, ejemplos del bachillerato técnico panameño), la creación de las 15 lecciones y los 3 proyectos guiados, y la redacción de los ejercicios, son obra de **Cristian Asprilla** (Copyright 2026).
+
+**Licenciamiento:** El material se distribuye bajo licencia MIT. Esto significa que cualquier colegio de Panamá puede usar, adaptar y redistribuir el contenido manteniendo el reconocimiento tanto a JetBrains Academy como autor del material base como al adaptador (Cristian Asprilla) por la personalización al currículo panameño. Ver `LICENSE` para los términos completos.
+
+**Reconocimiento a JetBrains:** Por la creación y mantenimiento del plugin JetBrains Academy y por publicar el template oficial que sirvió como base para este curso, sin el cual la autoría de esta obra pedagógica no habría sido posible.

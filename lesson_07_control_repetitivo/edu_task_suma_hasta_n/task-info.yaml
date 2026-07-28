@@ -1,0 +1,14 @@
+type: edu
+custom_name: "Ejercicio: suma de 1 hasta N"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 216
+        length: 49
+        placeholder_text: "# TODO: calcula la suma de 1 a n con un bucle"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

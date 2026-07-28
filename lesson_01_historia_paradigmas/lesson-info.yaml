@@ -1,0 +1,13 @@
+custom_name: "Leccion 1: Historia y paradigmas de los lenguajes de programacion"
+content:
+  - theory_task
+  - edu_task_categorizar_lenguaje
+  - edu_task_clasificarparadigmas
+  - edu_task_conteo_paradigmas
+  - edu_test_escritorio_paradigma
+  - output_task_lineatiempo
+  - quiz_diagnostico
+  - quiz_lineatiempo
+  - quiz_task
+  - quiz_task_relacionar
+  - quiz_test_escritorio_basico

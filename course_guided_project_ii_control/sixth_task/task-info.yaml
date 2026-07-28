@@ -1,0 +1,19 @@
+type: edu
+custom_name: "Paso 6: clasificar el desempeno del estudiante"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 333
+        length: 129
+        placeholder_text: "# TODO: clasifica segun el promedio (>= 4.5 Excelente, >= 4.0\
+      \ Muy bueno, >= 3.5 Bueno, >= 3.0 Suficiente, < 3.0 Insuficiente)"
+      - offset: 722
+        length: 108
+        placeholder_text: "# TODO: calcula el promedio, max, min, y usa clasificar_desempeno.\
+      \ 'aprobado' es True si promedio >= 3.0"
+  - name: tests/test_task.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

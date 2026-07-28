@@ -1,0 +1,12 @@
+custom_name: "Leccion 11: Arreglos unidimensionales (vectores)"
+content:
+  - theory_task
+  - edu_task
+  - edu_task_estadisticas
+  - edu_task_mediana
+  - edu_task_suma_elementos
+  - output_task
+  - output_task_invertir_lista
+  - quiz_indexing
+  - quiz_task_slicing
+  - quiz_test_escritorio_listas

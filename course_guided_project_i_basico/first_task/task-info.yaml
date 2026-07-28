@@ -1,0 +1,15 @@
+type: edu
+custom_name: "Paso 1: Crear la función de saludo"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 266
+        length: 46
+        placeholder_text: "# TODO: implementa el saludo de bienvenida"
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

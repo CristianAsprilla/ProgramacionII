@@ -1,0 +1,14 @@
+type: edu
+custom_name: "Ejercicio: invertir una lista sin reverse()"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 251
+        length: 54
+        placeholder_text: "# TODO: implementa la inversion sin usar reverse()"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

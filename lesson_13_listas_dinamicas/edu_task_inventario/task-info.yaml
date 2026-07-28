@@ -1,0 +1,15 @@
+type: edu
+custom_name: "Práctica: inventario de la tiendita escolar"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 226
+        length: 85
+        placeholder_text: "# TODO Agrega un producto nuevo al inventario (verifica que\
+      \ el nombre no exista)."
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

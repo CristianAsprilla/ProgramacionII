@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: '** (potencia)'
+    is_correct: true
+  - text: '* (multiplicacion)'
+    is_correct: false
+  - text: + (suma)
+    is_correct: false
+  - text: = (asignacion)
+    is_correct: false
+message_correct: "Correcto. En Python, ** (potencia) tiene la mayor precedencia, seguido\
+  \ por *, /, //, %, y luego + y -."
+message_incorrect: "Pista: pensa en orden de operaciones matematicas: las potencias\
+  \ (como 2^3) se resuelven antes que las multiplicaciones."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz: precedencia de operadores en Python"
+local_check: true

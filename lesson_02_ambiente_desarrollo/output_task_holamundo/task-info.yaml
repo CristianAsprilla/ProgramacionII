@@ -1,0 +1,13 @@
+type: output
+custom_name: "Ejercicio: primer programa en Python"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 174
+        length: 24
+        placeholder_text: "# imprime 'Hola, mundo'"
+  - name: tests/input.txt
+    visible: false
+  - name: tests/output.txt
+    visible: false

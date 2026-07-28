@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: int
+    is_correct: false
+  - text: float
+    is_correct: true
+  - text: str
+    is_correct: false
+  - text: decimal
+    is_correct: false
+message_correct: Cualquier numero con parte decimal es de tipo float en Python.
+message_incorrect: "Los numeros con parte decimal (como 3.14) son float, no int."
+files:
+  - name: main.py
+    visible: true
+custom_name: Tipo de dato de 3.14
+local_check: true

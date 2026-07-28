@@ -1,0 +1,12 @@
+custom_name: "Leccion 10: IA generativa de codigo: uso critico y responsable"
+content:
+  - theory_task
+  - edu_task_compararcodigo
+  - edu_task_contar_lineas_ia
+  - edu_task_detectar_comentarios_ia
+  - output_task_comparar_versiones
+  - quiz_etica_ia
+  - quiz_prompts_ia
+  - quiz_task_buenaspracticas
+  - quiz_test_escritorio_prompt
+  - quiz_test_escritorio_refactorizacion

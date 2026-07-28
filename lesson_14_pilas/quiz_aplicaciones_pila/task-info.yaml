@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Cola de impresion de documentos
+    is_correct: false
+  - text: Deshacer (Ctrl+Z) en un editor de texto
+    is_correct: true
+  - text: Busqueda de archivos por nombre
+    is_correct: false
+  - text: Ordenamiento de numeros
+    is_correct: false
+message_correct: Ctrl+Z usa una pila para recordar las acciones y desapilarlas en
+  orden inverso (LIFO).
+message_incorrect: "Ctrl+Z implementa LIFO: cada accion se apila, y al deshacer se\
+  \ desapila la ultima."
+files:
+  - name: main.py
+    visible: true
+custom_name: Aplicacion real de las pilas
+local_check: true

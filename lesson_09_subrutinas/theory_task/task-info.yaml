@@ -1,0 +1,5 @@
+type: theory
+custom_name: "Procedimientos, módulos y paquetes"
+files:
+  - name: main.py
+    visible: true

@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Python (1991)
+    is_correct: false
+  - text: FORTRAN (1957)
+    is_correct: true
+  - text: Java (1995)
+    is_correct: false
+  - text: Kotlin (2011)
+    is_correct: false
+message_correct: "FORTRAN fue creado por IBM en 1957, es el primer lenguaje de programacion\
+  \ de alto nivel ampliamente usado."
+message_incorrect: Los lenguajes mas antiguos fueron FORTRAN (1957) y LISP (1958).
+  Python y Java son de los 90s.
+files:
+  - name: main.py
+    visible: true
+custom_name: "Diagnostico: lenguajes historicos"
+local_check: true

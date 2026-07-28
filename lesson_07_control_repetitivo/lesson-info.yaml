@@ -1,0 +1,12 @@
+custom_name: "Leccion 7: Estructuras de control repetitivas"
+content:
+  - theory_task
+  - edu_task
+  - edu_task_factorial
+  - edu_task_suma_hasta_n
+  - output_task
+  - output_task_patron
+  - quiz_bucles_infinitos
+  - quiz_test_escritorio_break_continue
+  - quiz_test_escritorio_for
+  - quiz_test_escritorio_while

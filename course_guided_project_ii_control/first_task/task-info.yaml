@@ -1,0 +1,17 @@
+type: edu
+custom_name: "Paso 1: Agregar y listar notas"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 502
+        length: 74
+        placeholder_text: "# TODO: validar y agregar la nota a la lista"
+      - offset: 831
+        length: 62
+        placeholder_text: "# TODO: formatear la lista de notas como string"
+  - name: tests/test_task.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

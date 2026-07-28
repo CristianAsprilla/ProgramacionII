@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "Las listas se acceden por indice numerico (0, 1, 2...); los diccionarios\
+    \ por claves (nombres)."
+    is_correct: true
+  - text: Las listas y los diccionarios son exactamente lo mismo en Python.
+    is_correct: false
+  - text: "Los diccionarios solo pueden guardar numeros, no strings."
+    is_correct: false
+  - text: Las listas permiten acceso O(1); los diccionarios solo O(n).
+    is_correct: false
+message_correct: "Correcto. La principal diferencia es como se accede a los datos:\
+  \ por indice numerico en listas (0, 1, 2...) y por clave (que puede ser string,\
+  \ numero o tupla) en diccionarios. Tambien: las listas son secuencias ordenadas;\
+  \ los diccionarios guardan pares clave-valor."
+message_incorrect: "Pista: pensa en como accedes a los elementos de cada uno: lista[0]\
+  \ vs diccionario['clave']."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz: listas vs diccionarios"
+local_check: true

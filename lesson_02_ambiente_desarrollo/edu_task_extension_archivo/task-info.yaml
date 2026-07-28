@@ -1,0 +1,14 @@
+type: edu
+custom_name: "Ejercicio: extraer extension de archivo"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 302
+        length: 63
+        placeholder_text: "# TODO: busca el ultimo punto y retorna lo que esta despues"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

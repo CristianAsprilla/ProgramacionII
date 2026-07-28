@@ -1,0 +1,13 @@
+type: output
+custom_name: "Reto: invertir una lista"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 77
+        length: 66
+        placeholder_text: "# TODO: lee numeros desde stdin (uno por linea, FIN para terminar)"
+  - name: tests/output.txt
+    visible: false
+  - name: tests/input.txt
+    visible: false

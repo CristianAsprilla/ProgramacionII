@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "True"
+    is_correct: true
+  - text: "False"
+    is_correct: false
+  - text: 1
+    is_correct: false
+  - text: Error
+    is_correct: false
+message_correct: Correcto. 5 > 3 es True y 2 < 1 es False. True and False da False.
+  not(False) = True.
+message_incorrect: "Pista: and da True solo si ambos operandos son True. (5 > 3) and\
+  \ (2 < 1) = True and False = False."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz de escritorio: operadores logicos"
+local_check: true

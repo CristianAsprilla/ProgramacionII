@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "[1, 2, 3]"
+    is_correct: true
+  - text: "[1, 2]"
+    is_correct: false
+  - text: 1
+    is_correct: false
+  - text: Error
+    is_correct: false
+message_correct: "Correcto. matriz[:2] toma las primeras 2 filas (fila 0 y fila 1).\
+  \ matriz[:2][0] accede al primer elemento de esa sublista, que es la fila 0 = [1,\
+  \ 2, 3]."
+message_incorrect: "Pista: [:2] toma los primeros 2 elementos (fila 0 y fila 1). [:2][0]\
+  \ accede al primer elemento de eso, que es la fila 0."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz de escritorio: slicing en matriz anidada"
+local_check: true

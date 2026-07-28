@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Se escriben en MAYUSCULAS_CON_GUION_BAJO por convencion.
+    is_correct: true
+  - text: Se escriben en camelCase como las variables normales.
+    is_correct: false
+  - text: Se escriben con la primera letra mayuscula (PascalCase).
+    is_correct: false
+  - text: Python no permite definir constantes.
+    is_correct: false
+message_correct: "Correcto. En Python, las constantes no existen como palabra reservada\
+  \ (a diferencia de otros lenguajes), pero por convencion PEP 8 se escriben en MAYUSCULAS_CON_GUION_BAJO\
+  \ (como PI = 3.14159)."
+message_incorrect: "Pista: Python no tiene 'const' como keyword, pero la convencion\
+  \ es un nombre que identifica claramente que el valor no debe cambiar."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz: constantes en Python"
+local_check: true

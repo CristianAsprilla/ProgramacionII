@@ -1,0 +1,14 @@
+type: output
+custom_name: "Reto: mostrar la versión de Python"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 0
+        length: 88
+        placeholder_text: "# TODO: lee argumentos de stdin o usa sys.version_info para\
+      \ mostrar la version de Python"
+  - name: tests/output.txt
+    visible: false
+  - name: tests/input.txt
+    visible: false

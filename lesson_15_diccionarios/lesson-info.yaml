@@ -1,0 +1,12 @@
+custom_name: "Leccion 15: Diccionarios (pares clave-valor)"
+content:
+  - theory_task
+  - edu_task
+  - edu_task_directorio_programa
+  - edu_task_frecuenciapalabras
+  - edu_test_escritorio_diccionario
+  - output_task_csvsimple
+  - quiz_diccionarios
+  - quiz_task_vslist
+  - quiz_test_escritorio_dict
+  - quiz_test_escritorio_get

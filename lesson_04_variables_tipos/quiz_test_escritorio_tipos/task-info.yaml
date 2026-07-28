@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: int
+    is_correct: false
+  - text: float
+    is_correct: true
+  - text: str
+    is_correct: false
+  - text: decimal
+    is_correct: false
+message_correct: "Correcto. type(3.14).__name__ devuelve 'float'. En Python, cualquier\
+  \ numero con parte decimal (aun si es 0.0) es del tipo float."
+message_incorrect: "Pista: type() te dice el tipo exacto. Pensa que 3.14 tiene parte\
+  \ decimal."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz de escritorio: type() y __name__"
+local_check: true

@@ -1,0 +1,14 @@
+type: output
+custom_name: "Reto: detectar y convertir tipos"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 66
+        length: 69
+        placeholder_text: "# TODO: lee un numero desde stdin y conviertelo segun el tipo\
+      \ actual."
+  - name: tests/output.txt
+    visible: false
+  - name: tests/input.txt
+    visible: false

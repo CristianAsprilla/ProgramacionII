@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "[1, 2]"
+    is_correct: true
+  - text: "[2, 3]"
+    is_correct: false
+  - text: "[3]"
+    is_correct: false
+  - text: "[1, 2, 3]"
+    is_correct: false
+message_correct: "Correcto. pop() quita el ultimo elemento (3). La pila queda [1,\
+  \ 2]."
+message_incorrect: "Pista: pop() quita el ultimo elemento de la pila. Si pila = [1,\
+  \ 2, 3], pop() devuelve 3 y deja [1, 2]."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz de escritorio: pop en pila"
+local_check: true

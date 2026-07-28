@@ -1,0 +1,14 @@
+type: edu
+custom_name: "Ejercicio: prueba de escritorio de diccionario"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 419
+        length: 57
+        placeholder_text: "# TODO: simula las operaciones y retorna la lista de gets"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

@@ -1,0 +1,5 @@
+type: theory
+custom_name: "Teoría: operadores y E/S"
+files:
+  - name: main.py
+    visible: true

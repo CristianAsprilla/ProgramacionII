@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Imprime 'hola' porque x vale 5.
+    is_correct: false
+  - text: "SyntaxError: '=' en vez de '=='."
+    is_correct: true
+  - text: Imprime 'adios' porque 5 no es igual a 3.
+    is_correct: false
+  - text: Imprime 'hola' porque la condicion es verdadera.
+    is_correct: false
+message_correct: "Correcto. En Python, 'if x = 5' genera SyntaxError porque el operador\
+  \ de asignacion '=' no se puede usar en una condicion. Para comparar se usa '=='\
+  \ (doble igual)."
+message_incorrect: "Pista: en Python se usa un solo '=' para asignar y dos iguales\
+  \ '==' para comparar. Mezclarlos es un error de sintaxis."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz de escritorio: error de sintaxis con keywords"
+local_check: true

@@ -1,0 +1,14 @@
+type: edu
+custom_name: "Ejercicio: factorial modular"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 242
+        length: 52
+        placeholder_text: "# TODO: implementa el factorial de forma modular"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

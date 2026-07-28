@@ -1,0 +1,4 @@
+mi_variable = 1
+2var = 2
+_valor = 3
+class = 4

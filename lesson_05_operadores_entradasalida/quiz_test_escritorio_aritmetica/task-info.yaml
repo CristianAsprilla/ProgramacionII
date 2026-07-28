@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: 13
+    is_correct: true
+  - text: 20
+    is_correct: false
+  - text: 25
+    is_correct: false
+  - text: Error
+    is_correct: false
+message_correct: "Correcto. La multiplicacion (*) tiene mayor precedencia que la suma\
+  \ (+). Primero 3 * 4 = 12, luego 2 + 12 - 1 = 13."
+message_incorrect: "Pista: en Python, la multiplicacion se evalua antes que la suma\
+  \ y la resta. Primero 3 * 4, despues los otros."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz de escritorio: aritmetica basica"
+local_check: true

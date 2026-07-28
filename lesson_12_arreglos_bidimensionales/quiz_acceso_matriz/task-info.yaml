@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: 2
+    is_correct: false
+  - text: 5
+    is_correct: false
+  - text: 6
+    is_correct: true
+  - text: Error
+    is_correct: false
+message_correct: "matriz[1] es la segunda fila [4, 5, 6]. matriz[1][2] es su tercer\
+  \ elemento, 6."
+message_incorrect: "matriz[1] es la segunda fila ([4, 5, 6]). El elemento en posicion\
+  \ 2 es 6."
+files:
+  - name: main.py
+    visible: true
+custom_name: Acceso con doble indice en matrices
+local_check: true

@@ -1,0 +1,13 @@
+type: output
+custom_name: "Reto: matriz transpuesta"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 0
+        length: 47
+        placeholder_text: Lee tres filas y muestra la matriz transpuesta.
+  - name: tests/input.txt
+    visible: false
+  - name: tests/output.txt
+    visible: false

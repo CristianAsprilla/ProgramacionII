@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Con el comando `ls` en Linux/Mac o `dir` en Windows
+    is_correct: true
+  - text: Con el comando `run` desde la terminal
+    is_correct: false
+  - text: Con el comando `python --list`
+    is_correct: false
+  - text: Solo desde el explorador de archivos grafico
+    is_correct: false
+message_correct: El comando 'ls' (Linux/Mac) y 'dir' (Windows) listan los archivos
+  del directorio actual.
+message_incorrect: Pensa en comandos cortos de 2-3 letras. 'ls' es el estandar en
+  Linux/Mac y 'dir' en Windows.
+files:
+  - name: main.py
+    visible: true
+custom_name: Comandos basicos de terminal
+local_check: true

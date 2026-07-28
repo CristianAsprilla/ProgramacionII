@@ -1,0 +1,15 @@
+type: edu
+custom_name: "Práctica: lista de compras"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 264
+        length: 79
+        placeholder_text: "# TODO: implementa las funciones de la lista (agregar, buscar,\
+      \ ordenar)"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

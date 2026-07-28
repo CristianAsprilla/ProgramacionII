@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Usar nombres descriptivos en snake_case para variables y funciones.
+    is_correct: true
+  - text: Usar nombres cortos de una letra para todo.
+    is_correct: false
+  - text: Mezclar mayusculas y minusculas sin reglas.
+    is_correct: false
+  - text: Usar el mismo nombre para todas las variables.
+    is_correct: false
+message_correct: "Correcto. La guia de estilo PEP 8 recomienda usar nombres descriptivos\
+  \ en snake_case (palabras separadas por guion bajo) para variables y funciones,\
+  \ como 'mi_variable' o 'calcular_promedio'."
+message_incorrect: "Pista: la guia oficial de Python se llama PEP 8 y recomienda un\
+  \ estilo consistente para que tu codigo sea legible."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz: estilo de codigo en Python"
+local_check: true

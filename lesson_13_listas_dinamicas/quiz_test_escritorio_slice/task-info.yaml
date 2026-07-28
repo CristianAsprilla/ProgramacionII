@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "[2, 4, 6]"
+    is_correct: false
+  - text: "[0, 2, 4]"
+    is_correct: false
+  - text: "[1, 3, 5]"
+    is_correct: true
+  - text: "[0, 2, 4, 6]"
+    is_correct: false
+message_correct: "Correcto. lst[::2] toma cada segundo elemento empezando desde el\
+  \ indice 0, lo que produce los elementos en posiciones impares (1, 3, 5)."
+message_incorrect: "Pista: lst[::2] significa 'desde el inicio, hasta el final, con\
+  \ step 2'. Eso toma elementos en indices 0, 2, 4."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz de escritorio: slicing con step"
+local_check: true

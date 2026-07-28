@@ -1,0 +1,17 @@
+type: edu
+custom_name: "Paso 5: buscar productos en el catalogo"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 316
+        length: 60
+        placeholder_text: "# TODO: retorna catalogo.get(nombre) o None si no existe"
+      - offset: 691
+        length: 71
+        placeholder_text: "# TODO: retorna una lista con los nombres cuyo precio <= precio_max"
+  - name: tests/test_task.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

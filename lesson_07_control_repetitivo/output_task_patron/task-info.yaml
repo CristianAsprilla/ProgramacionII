@@ -1,0 +1,13 @@
+type: output
+custom_name: Triángulo de asteriscos con for
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 17
+        length: 56
+        placeholder_text: "# TODO: imprime un triángulo de asteriscos de N líneas."
+  - name: tests/input.txt
+    visible: false
+  - name: tests/output.txt
+    visible: false

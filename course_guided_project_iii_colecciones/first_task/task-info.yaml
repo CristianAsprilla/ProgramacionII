@@ -1,0 +1,21 @@
+type: edu
+custom_name: "Paso 1: Catálogo de productos (diccionarios)"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 636
+        length: 63
+        placeholder_text: "# TODO: si el nombre ya está en el catálogo, devolvé False."
+      - offset: 962
+        length: 60
+        placeholder_text: "# TODO: usa catalogo.get(nombre) y devolvé el resultado."
+      - offset: 1432
+        length: 63
+        placeholder_text: "# TODO: si el producto no existe, devolvé False. Si existe,"
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

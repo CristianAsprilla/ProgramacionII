@@ -1,0 +1,15 @@
+type: edu
+custom_name: "Práctica: diagonal principal de una matriz"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 192
+        length: 73
+        placeholder_text: "# TODO: implementa la suma de todos los elementos retornando\
+      \ el total"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

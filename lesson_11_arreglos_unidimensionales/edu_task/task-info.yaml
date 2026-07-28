@@ -1,0 +1,14 @@
+type: edu
+custom_name: "Práctica: promedio y nota máxima"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 216
+        length: 70
+        placeholder_text: "# TODO: implementa el calculo del promedio retornando el resultado"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: 6
+    is_correct: true
+  - text: 2
+    is_correct: false
+  - text: 8
+    is_correct: false
+  - text: "Error: index fuera de rango"
+    is_correct: false
+message_correct: "Correcto. matriz[1][2] accede a la fila 1 (segunda fila) y columna\
+  \ 2 (tercera columna). La segunda fila es [4, 5, 6], el tercer elemento es 6."
+message_incorrect: "Pista: en Python los indices empiezan en 0. matriz[1] es la segunda\
+  \ fila, matriz[1][2] es su tercer elemento."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz de escritorio: acceso a matriz"
+local_check: true

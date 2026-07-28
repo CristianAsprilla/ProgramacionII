@@ -1,0 +1,14 @@
+type: edu
+custom_name: "Ejercicio: clasificar edad en categoria"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 287
+        length: 44
+        placeholder_text: "# TODO: clasifica segun el rango de edad"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

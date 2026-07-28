@@ -1,0 +1,18 @@
+type: edu
+custom_name: "Paso 5: buscar y contar notas"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 317
+        length: 85
+        placeholder_text: "# TODO: recorre la lista y retorna el indice de la primera\
+      \ ocurrencia, o -1 si no"
+      - offset: 748
+        length: 65
+        placeholder_text: "# TODO: cuenta cuantas notas cumplen minimo <= nota <= maximo"
+  - name: tests/test_task.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

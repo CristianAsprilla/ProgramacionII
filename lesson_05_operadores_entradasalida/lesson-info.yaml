@@ -1,0 +1,12 @@
+custom_name: "Leccion 5: Operadores, expresiones y sentencias de E/S"
+content:
+  - theory_task
+  - edu_task
+  - edu_task_calculadorasimple
+  - edu_task_precedencia
+  - output_task
+  - output_task_formateo
+  - quiz_precedencia
+  - quiz_test_escritorio_aritmetica
+  - quiz_test_escritorio_comparacion
+  - quiz_test_escritorio_logicos

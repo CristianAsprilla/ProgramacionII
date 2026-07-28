@@ -1,0 +1,21 @@
+type: edu
+custom_name: "Paso 8: alertas de stock bajo"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 357
+        length: 49
+        placeholder_text: "# TODO: retorna los nombres cuyo stock <= 0"
+      - offset: 594
+        length: 78
+        placeholder_text: "# TODO: retorna tuplas para los productos con stock bajo"
+      - offset: 977
+        length: 137
+        placeholder_text: "# TODO: retorna Todo en orden o un mensaje con los productos\
+      \ a reabastecer"
+  - name: tests/test_task.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

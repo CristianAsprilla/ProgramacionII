@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Copiar y entregar codigo de IA como propio sin entenderlo.
+    is_correct: true
+  - text: "Revisar, probar y entender el codigo antes de usarlo."
+    is_correct: false
+  - text: Citar la IA como herramienta cuando sea apropiado.
+    is_correct: false
+  - text: Adaptar el codigo al contexto del problema real.
+    is_correct: false
+message_correct: "Correcto. Copiar y entregar codigo sin entenderlo es una practica\
+  \ NO etica con IA. La IA es una herramienta que asiste, no reemplaza tu criterio."
+message_incorrect: "Pista: la IA es una herramienta que asiste. El estudiante debe\
+  \ entender, probar y adaptar el codigo. NO es etico presentar trabajo que no se\
+  \ comprende."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz: etica al usar IA generativa"
+local_check: true

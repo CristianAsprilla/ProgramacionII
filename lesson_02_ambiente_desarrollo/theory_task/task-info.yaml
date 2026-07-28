@@ -1,0 +1,11 @@
+type: theory
+custom_name: Ambiente de desarrollo de Python
+files:
+  - name: main.py
+    visible: true
+  - name: academy_logo.png
+    visible: false
+    is_binary: true
+  - name: academy_logo_dark.png
+    visible: false
+    is_binary: true

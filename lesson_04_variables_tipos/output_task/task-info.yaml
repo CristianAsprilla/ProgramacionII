@@ -1,0 +1,14 @@
+type: output
+custom_name: "Reto: tipo y doble de un número"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 0
+        length: 69
+        placeholder_text: "# TODO: lee el nombre desde stdin y muestra un saludo usando\
+      \ f-string"
+  - name: tests/output.txt
+    visible: false
+  - name: tests/input.txt
+    visible: false

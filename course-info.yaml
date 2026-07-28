@@ -1,14 +1,42 @@
 type: marketplace
-title: JetBrains Academy Python course template
-language: English
-summary: Here you can put the course description. You can use HTML tags inside the
-  description.
+title: Programación II — Currículo MEDUCA
+language: Spanish
+summary: "Curso de Programación II del Bachillerato Técnico de Panamá, alineado con\
+  \ la planificación didáctica anual del MEDUCA (Ministerio de Educación de Panamá\
+  ), grado 11°. Apto para cualquier colegio del país. Cubre tres trimestres: (I) Introducció\
+  n al lenguaje y estructuras básicas (variables, tipos de datos, operadores, expresiones\
+  \ y sentencias de entrada/salida); (II) Estructuras de control (alternativas y repetitivas)\
+  \ y subprogramas (funciones, subrutinas y uso crítico de asistentes de IA generativa);\
+  \ (III) Arreglos unidimensionales y bidimensionales, además de estructuras de datos\
+  \ abstractas (listas dinámicas, pilas y diccionarios). El lenguaje de referencia\
+  \ es Python, elegido por su legibilidad y por su carácter multi-paradigma. Las competencias\
+  \ trabajadas son: pensamiento lógico-matemático, tratamiento de la información y\
+  \ competencia digital y aprender a aprender."
 programming_language: Python
 environment: unittest
 content:
-  - course_lesson
-  - course_guided_project
+  - lesson_01_historia_paradigmas
+  - lesson_02_ambiente_desarrollo
+  - lesson_03_elementos_basicos
+  - lesson_04_variables_tipos
+  - lesson_05_operadores_entradasalida
+  - course_guided_project_i_basico
+  - lesson_06_control_alternativo
+  - lesson_07_control_repetitivo
+  - lesson_08_funciones
+  - lesson_09_subrutinas
+  - lesson_10_ia_generativa
+  - course_guided_project_ii_control
+  - lesson_11_arreglos_unidimensionales
+  - lesson_12_arreglos_bidimensionales
+  - lesson_13_listas_dinamicas
+  - lesson_14_pilas
+  - lesson_15_diccionarios
+  - course_guided_project_iii_colecciones
 additional_files:
   - name: LICENSE
   - name: requirements.txt
+    is_binary: true
+  - name: README.md
+  - name: COLABORADORES.md
 yaml_version: 5

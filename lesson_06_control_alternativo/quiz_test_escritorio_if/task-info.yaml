@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: mayor
+    is_correct: true
+  - text: menor
+    is_correct: false
+  - text: No imprime nada
+    is_correct: false
+  - text: Error
+    is_correct: false
+message_correct: "Correcto. 10 > 5 es True, entonces se ejecuta el bloque del if y\
+  \ se imprime 'mayor'."
+message_incorrect: "Pista: 10 > 5 es True, asi que se ejecuta el codigo dentro del\
+  \ if."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz de escritorio: if basico"
+local_check: true

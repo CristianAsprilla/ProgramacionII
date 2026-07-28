@@ -1,0 +1,5 @@
+type: theory
+custom_name: Asistentes de código y verificación
+files:
+  - name: main.py
+    visible: true

@@ -1,0 +1,15 @@
+type: edu
+custom_name: "Paso 4: ordenar las notas"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 324
+        length: 80
+        placeholder_text: "# TODO: usa sorted() con reverse=descendente para retornar\
+      \ la lista ordenada"
+  - name: tests/test_task.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

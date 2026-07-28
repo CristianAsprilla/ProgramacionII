@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Cuando la condicion del bucle nunca se vuelve False.
+    is_correct: true
+  - text: Cuando el bucle tiene mas de 100 iteraciones.
+    is_correct: false
+  - text: Cuando se olvida el 'print' dentro del bucle.
+    is_correct: false
+  - text: Cuando se usa 'for' en vez de 'while'.
+    is_correct: false
+message_correct: "Correcto. Un bucle infinito ocurre cuando la condicion del while\
+  \ nunca se vuelve False. Ejemplo clasico: while True: sin un break."
+message_incorrect: "Pista: piensa en un while(True) que nunca tiene un break: la condicion\
+  \ siempre es True y nunca cambia."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz: bucles infinitos"
+local_check: true

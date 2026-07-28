@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: 1 2 3 4 5
+    is_correct: true
+  - text: 0 1 2 3 4 5
+    is_correct: false
+  - text: 1 2 3 4
+    is_correct: false
+  - text: Bucle infinito
+    is_correct: false
+message_correct: "Correcto. La condicion es x < 5, asi que se imprime mientras x sea\
+  \ menor que 5. Empieza en 1 y termina al imprimir 5 (cuando x pasa a 6 y sale del\
+  \ bucle)."
+message_incorrect: "Pista: x empieza en 1. El bucle imprime x y luego incrementa.\
+  \ Continua mientras x < 5."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz de escritorio: bucle while"
+local_check: true

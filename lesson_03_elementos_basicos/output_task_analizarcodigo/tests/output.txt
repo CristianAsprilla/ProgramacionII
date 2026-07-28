@@ -1,0 +1,4 @@
+válido: mi_variable
+inválido: 2var
+válido: _valor
+inválido: class

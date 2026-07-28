@@ -1,6 +1,15 @@
 MIT License
 
-Copyright (c) 2023 JetBrains Academy
+Copyright (c) 2023 JetBrains s.r.o.
+
+Copyright (c) 2026 Cristian Asprilla (Adaptación al currículo del Ministerio
+de Educación de Panamá - MEDUCA, grado 11°, Bachillerato Técnico)
+
+El presente curso se basa en el template oficial de JetBrains Academy para cursos de
+Python, adaptado al contexto curricular del Ministerio de Educación de Panamá (MEDUCA)
+para el grado 11° del Bachillerato Técnico. Se concede permiso de uso, modificación y
+distribución de conformidad con los términos de la licencia MIT, preservando el
+reconocimiento original a JetBrains Academy como fuente del material base.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

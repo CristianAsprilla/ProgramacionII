@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "Edad: {17}"
+    is_correct: false
+  - text: "Edad: 17"
+    is_correct: true
+  - text: "Error: las llaves no se pueden usar"
+    is_correct: false
+  - text: "Edad: {17}"
+    is_correct: false
+message_correct: "Correcto. Las f-strings en Python evalúan las expresiones dentro\
+  \ de las llaves {}. f'Edad: {17}' convierte el numero 17 a string y produce 'Edad:\
+  \ 17'."
+message_incorrect: "Pista: las f-strings (con la 'f' antes del string) evaluan expresiones\
+  \ dentro de llaves {}. Un numero se convierte a su representacion como string."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz de escritorio: f-strings"
+local_check: true

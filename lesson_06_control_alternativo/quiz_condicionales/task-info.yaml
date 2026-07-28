@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: A
+    is_correct: false
+  - text: B
+    is_correct: true
+  - text: C
+    is_correct: false
+  - text: No imprime nada
+    is_correct: false
+message_correct: "x = 5, no es > 10, pero si es > 3, asi que imprime 'B'."
+message_incorrect: "Python evalua las condiciones en orden. x=5 no es >10, pero si\
+  \ es >3, asi que va al elif."
+files:
+  - name: main.py
+    visible: true
+custom_name: Trazar codigo con if/elif/else
+local_check: true

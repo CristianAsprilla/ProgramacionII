@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: 10
+    is_correct: true
+  - text: None
+    is_correct: false
+  - text: 5
+    is_correct: false
+  - text: Error
+    is_correct: false
+message_correct: "Correcto. La funcion retorna el resultado de 5 + 5, que es 10. print()\
+  \ muestra ese valor."
+message_incorrect: "Pista: una funcion que termina con 'return valor' devuelve ese\
+  \ valor a quien la llamo. print() muestra el valor devuelto."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz de escritorio: return basico"
+local_check: true

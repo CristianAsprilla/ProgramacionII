@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Grace Hopper
+    is_correct: false
+  - text: Ada Lovelace
+    is_correct: true
+  - text: Margaret Hamilton
+    is_correct: false
+  - text: Hedy Lamarr
+    is_correct: false
+message_correct: Ada Lovelace (1815-1852) es considerada la primera programadora por
+  escribir el primer algoritmo para la maquina analitica de Babbage en 1843.
+message_incorrect: "Ada Lovelace escribio el primer algoritmo en 1843, antes de que\
+  \ existieran las computadoras modernas."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Linea de tiempo: primera programadora"
+local_check: true

@@ -1,0 +1,15 @@
+type: edu
+custom_name: "Práctica: mediana de notas"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 281
+        length: 108
+        placeholder_text: "# TODO: ordena la lista y devuelve el elemento central (o el\
+      \ promedio de los dos centrales si son pares)"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

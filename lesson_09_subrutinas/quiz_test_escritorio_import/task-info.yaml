@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: 4.0
+    is_correct: true
+  - text: 16.0
+    is_correct: false
+  - text: "Error: sqrt no existe"
+    is_correct: false
+  - text: "Error: falta import"
+    is_correct: false
+message_correct: "Correcto. sqrt(16) devuelve 4.0 (siempre retorna float en Python\
+  \ 3). El import from math import sqrt importa solo la funcion sqrt, sin el prefijo\
+  \ math."
+message_incorrect: "Pista: 'from math import sqrt' importa la funcion sqrt del modulo\
+  \ math. sqrt(16) calcula la raiz cuadrada, que es 4.0 (en Python 3 retorna float)."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz de escritorio: import"
+local_check: true

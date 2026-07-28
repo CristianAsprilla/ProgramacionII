@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Hola Mundo
+    is_correct: false
+  - text: Hola Mundo (con un espacio entre ellos)
+    is_correct: true
+  - text: "Hola,Mundo (con coma)"
+    is_correct: false
+  - text: "Error: se necesitan mas argumentos"
+    is_correct: false
+message_correct: "Correcto. Cuando print() recibe varios argumentos separados por\
+  \ coma, los imprime separados por un espacio por defecto. 'Hola' y 'Mundo' se imprimen\
+  \ como 'Hola Mundo'."
+message_incorrect: "Pista: cuando pasas varios argumentos separados por coma a print(),\
+  \ Python los une con un espacio por defecto."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz de escritorio: print con varios argumentos"
+local_check: true

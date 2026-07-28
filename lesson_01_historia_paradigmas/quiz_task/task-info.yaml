@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Es un ejemplo de programación orientada a objetos (por usar clases).
+    is_correct: false
+  - text: Es un ejemplo de programación lógica (por el razonamiento automático).
+    is_correct: false
+  - text: Es un ejemplo de programación imperativa pura (no usa funciones).
+    is_correct: false
+  - text: Es un ejemplo de programación funcional (uso de map y lambda).
+    is_correct: true
+message_correct: "¡Correcto! El fragmento A usa map y lambda, herramientas clásicas\
+  \ del paradigma funcional. Recordá que Python es multi-paradigma y permite combinar\
+  \ estilos."
+message_incorrect: "Repasá la sección de paradigmas. La pista: mirá el uso de map\
+  \ y lambda. ¿A qué paradigma pertenecen?"
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz: paradigmas"
+local_check: true

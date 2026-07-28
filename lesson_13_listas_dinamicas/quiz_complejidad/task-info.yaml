@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: O(1) - constante
+    is_correct: true
+  - text: O(n) - lineal
+    is_correct: false
+  - text: O(log n) - logaritmica
+    is_correct: false
+  - text: O(n^2) - cuadratica
+    is_correct: false
+message_correct: "append() agrega al final de la lista, que es O(1) amortizado (la\
+  \ mayoria de las veces es constante)."
+message_incorrect: append() no requiere desplazar elementos. Es O(1) amortizado.
+files:
+  - name: main.py
+    visible: true
+custom_name: Complejidad de operaciones con listas
+local_check: true

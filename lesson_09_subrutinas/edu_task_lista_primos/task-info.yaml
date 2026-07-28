@@ -1,0 +1,14 @@
+type: edu
+custom_name: "Ejercicio: lista de primos hasta N"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 242
+        length: 59
+        placeholder_text: "# TODO: usa es_primo() o un bucle para generar la lista"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

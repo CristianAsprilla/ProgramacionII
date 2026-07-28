@@ -1,0 +1,14 @@
+type: edu
+custom_name: "Ejercicio: verificar si un numero es primo"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 228
+        length: 47
+        placeholder_text: "# TODO: implementa la verificacion de primo"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

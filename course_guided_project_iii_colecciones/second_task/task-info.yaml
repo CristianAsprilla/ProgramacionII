@@ -1,0 +1,27 @@
+type: edu
+custom_name: "Paso 2: Historial de operaciones (lista dinámica)"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 405
+        length: 14
+        placeholder_text: "# agregar prod"
+      - offset: 530
+        length: 14
+        placeholder_text: "# buscar prod"
+      - offset: 656
+        length: 14
+        placeholder_text: "# actualizar stock"
+      - offset: 1066
+        length: 65
+        placeholder_text: "# registrar op"
+      - offset: 1469
+        length: 69
+        placeholder_text: "# formatear hist"
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

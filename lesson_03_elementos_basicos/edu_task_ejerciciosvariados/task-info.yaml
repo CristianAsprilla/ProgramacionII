@@ -1,0 +1,19 @@
+type: edu
+custom_name: "Ejercicios: vocales e identificadores"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 180
+        length: 78
+        placeholder_text: "# TODO: cuenta las vocales de texto sin distinguir mayúsculas\
+      \ y minúsculas"
+      - offset: 180
+        length: 78
+        placeholder_text: "# TODO: cuenta las vocales de texto sin distinguir mayúsculas\
+      \ y minúsculas"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

@@ -1,0 +1,12 @@
+custom_name: "Leccion 14: Pilas (estructura LIFO)"
+content:
+  - theory_task
+  - edu_task
+  - edu_task_evaluadorexpresiones
+  - edu_test_escritorio_push_pop
+  - output_task_validarparentesis
+  - quiz_aplicaciones_pila
+  - quiz_cuando_usar_pila
+  - quiz_lifo_fifo
+  - quiz_test_escritorio_desapilar
+  - quiz_test_escritorio_lifo

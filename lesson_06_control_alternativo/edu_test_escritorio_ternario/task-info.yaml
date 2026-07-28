@@ -1,0 +1,14 @@
+type: edu
+custom_name: "Ejercicio: operador ternario en Python"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 424
+        length: 65
+        placeholder_text: "# TODO: retorna valor_true si condicion es True, sino valor_false"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

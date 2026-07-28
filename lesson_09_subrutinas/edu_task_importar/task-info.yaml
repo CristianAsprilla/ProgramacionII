@@ -1,0 +1,18 @@
+type: edu
+custom_name: Detectar y listar números primos
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 309
+        length: 52
+        placeholder_text: "# TODO: devuelve True si n es primo, False si no"
+      - offset: 309
+        length: 52
+        placeholder_text: "# TODO: devuelve True si n es primo, False si no"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+  - name: task.md
+    visible: true

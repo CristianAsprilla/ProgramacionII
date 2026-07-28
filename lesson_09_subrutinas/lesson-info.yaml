@@ -1,0 +1,12 @@
+custom_name: "Leccion 9: Subrutinas y modularizacion"
+content:
+  - theory_task
+  - edu_task
+  - edu_task_es_primo
+  - edu_task_factorial_modular
+  - edu_task_importar
+  - edu_task_lista_primos
+  - output_task_modulos
+  - quiz_biblioteca_estandar
+  - quiz_modulos_python
+  - quiz_test_escritorio_import

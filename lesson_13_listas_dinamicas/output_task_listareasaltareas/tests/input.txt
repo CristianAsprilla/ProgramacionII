@@ -1,0 +1,4 @@
+comprar pan
+estudiar
+pasear al perro
+FIN

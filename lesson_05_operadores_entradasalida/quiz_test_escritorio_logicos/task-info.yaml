@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "True"
+    is_correct: false
+  - text: "False"
+    is_correct: true
+  - text: None
+    is_correct: false
+  - text: Error
+    is_correct: false
+message_correct: Correcto. not invierte el valor. True or False es True. not(True)
+  = False.
+message_incorrect: "Pista: 'or' da True si AL MENOS UN operando es True. True or False\
+  \ = True. Luego not(True) = ?"
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz de escritorio: not y or"
+local_check: true

@@ -1,0 +1,17 @@
+type: edu
+custom_name: Funciones de geometría y conversión de temperatura
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 275
+        length: 65
+        placeholder_text: "# TODO: devuelve π × radio² (importa math o usa la constante)"
+      - offset: 275
+        length: 65
+        placeholder_text: "# TODO: devuelve π × radio² (importa math o usa la constante)"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

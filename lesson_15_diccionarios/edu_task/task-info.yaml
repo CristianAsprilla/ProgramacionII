@@ -1,0 +1,15 @@
+type: edu
+custom_name: "Práctica: agenda de contactos"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 216
+        length: 77
+        placeholder_text: "# TODO: implementa las funciones de la agenda (agregar, eliminar,\
+      \ listar)"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

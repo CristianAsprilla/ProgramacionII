@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: 11
+    is_correct: false
+  - text: Programacion II
+    is_correct: true
+  - text: '''curso'''
+    is_correct: false
+  - text: Error
+    is_correct: false
+message_correct: "datos['curso'] accede al valor asociado a la clave 'curso', que\
+  \ es 'Programacion II'."
+message_incorrect: "datos['curso'] retorna el VALOR de la clave 'curso', no la clave\
+  \ misma."
+files:
+  - name: main.py
+    visible: true
+custom_name: Acceso e iteracion de diccionarios
+local_check: true

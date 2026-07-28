@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "Pila: el ultimo en entrar es el primero en salir; Cola: el primero en entrar\
+    \ es el primero en salir"
+    is_correct: true
+  - text: "No hay diferencia, son sinonimos"
+    is_correct: false
+  - text: La pila solo guarda numeros y la cola solo textos
+    is_correct: false
+  - text: La cola es mas rapida que la pila
+    is_correct: false
+message_correct: "LIFO = Last In, First Out (pila). FIFO = First In, First Out (cola).\
+  \ La diferencia esta en el orden de extraccion."
+message_incorrect: "LIFO (Last In, First Out) y FIFO (First In, First Out) son los\
+  \ principios opuestos de extraccion."
+files:
+  - name: main.py
+    visible: true
+custom_name: Diferencia entre pila y cola
+local_check: true

@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: then
+    is_correct: true
+  - text: lambda
+    is_correct: false
+  - text: yield
+    is_correct: false
+  - text: async
+    is_correct: false
+message_correct: "Correcto. 'then' NO es una keyword en Python. Python usa bloques\
+  \ con indentacion en lugar de 'then' como otros lenguajes (ej: Pascal, Ruby)."
+message_incorrect: "Pista: 'then' se usa en otros lenguajes pero Python no lo necesita:\
+  \ usa indentacion para delimitar bloques."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz: palabras que NO son keywords"
+local_check: true

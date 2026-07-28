@@ -1,0 +1,14 @@
+type: edu
+custom_name: "Ejercicio: sumar elementos de una lista"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 241
+        length: 50
+        placeholder_text: "# TODO: retorna la suma de todos los elementos"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

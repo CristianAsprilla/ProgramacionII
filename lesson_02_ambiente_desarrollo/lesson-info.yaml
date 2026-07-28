@@ -1,0 +1,13 @@
+custom_name: "Leccion 2: Ambiente de desarrollo y primeros pasos en Python"
+content:
+  - theory_task
+  - edu_task_configurarpycharm
+  - edu_task_extension_archivo
+  - edu_task_version_python
+  - output_task
+  - output_task_creararchivo
+  - output_task_holamundo
+  - quiz_paths_terminal
+  - quiz_terminal
+  - quiz_test_escritorio_input
+  - quiz_test_escritorio_print

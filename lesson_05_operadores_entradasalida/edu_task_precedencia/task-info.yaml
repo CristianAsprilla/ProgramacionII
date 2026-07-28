@@ -1,0 +1,14 @@
+type: edu
+custom_name: "Ejercicio: precedencia de operadores"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 358
+        length: 65
+        placeholder_text: "# TODO: respeta la precedencia: multiplicacion antes que suma"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

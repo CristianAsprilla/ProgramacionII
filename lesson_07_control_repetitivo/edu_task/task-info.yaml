@@ -1,0 +1,14 @@
+type: edu
+custom_name: Generá la serie de Fibonacci
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 293
+        length: 68
+        placeholder_text: "# TODO: construye y devuelve los primeros n números de Fibonacci"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "Adulto (con 20 anos, no entra en ninguna de las ramas anteriores y devuelve\
+    \ Adulto; con 16 anos y el parametro por defecto es_estudiante=True devuelve Adolescente)."
+    is_correct: true
+  - text: "Adulto (general) en ambas llamadas, porque el parametro por defecto siempre\
+    \ gana."
+    is_correct: false
+  - text: "Adolescente en ambas llamadas, porque 20 y 16 son menores de 25."
+    is_correct: false
+  - text: "Error, porque no se puede omitir un parametro cuando ya se dio otro."
+    is_correct: false
+message_correct: Correcto. Con 20 anos no entra en ninguna de las ramas anteriores
+  y devuelve Adulto. Con 16 anos y el parametro por defecto es_estudiante=True devuelve
+  Adolescente.
+message_incorrect: Ambas llamadas usan el valor por defecto de es_estudiante (True).
+  Revisa que rango aplica para cada edad.
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz: parametros por defecto en accion"
+local_check: true

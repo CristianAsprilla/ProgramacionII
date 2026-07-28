@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "total = 30 (válido, es snake_case en español)."
+    is_correct: true
+  - text: 2do_trimestre = 11 (válido porque empieza con un dígito).
+    is_correct: false
+  - text: "for = 5 (válido, asignás un valor a la palabra 'for')."
+    is_correct: false
+  - text: class-nota = 90 (válido porque usa un guion como separador).
+    is_correct: false
+message_correct: "¡Correcto! `total = 30` cumple todas las reglas: empieza con letra,\
+  \ no es una palabra reservada y usa snake_case. El resto falla por alguna de las\
+  \ reglas: empezar con dígito, ser palabra reservada o usar guiones."
+message_incorrect: "Repasá las reglas para identificadores: deben empezar con letra\
+  \ o guión bajo, no pueden ser palabras reservadas y no admiten guiones medios. Marca\
+  \ la opción que cumple TODAS las reglas."
+files:
+  - name: main.py
+    visible: true
+custom_name: "Quiz: identificadores y palabras reservadas"
+local_check: true

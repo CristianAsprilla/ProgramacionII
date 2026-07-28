@@ -1,0 +1,14 @@
+type: edu
+custom_name: "Ejercicio: prueba de escritorio de pila (push/pop)"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 390
+        length: 58
+        placeholder_text: "# TODO: simula la pila procesando las operaciones en orden"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

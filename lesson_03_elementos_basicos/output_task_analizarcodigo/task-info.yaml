@@ -1,0 +1,13 @@
+type: output
+custom_name: "Análisis: identificadores válidos e inválidos"
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 200
+        length: 35
+        placeholder_text: "# TODO: completa la validación."
+  - name: tests/input.txt
+    visible: false
+  - name: tests/output.txt
+    visible: false
