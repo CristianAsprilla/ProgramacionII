@@ -4,21 +4,12 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 405
-        length: 14
-        placeholder_text: "# agregar prod"
-      - offset: 530
-        length: 14
-        placeholder_text: "# buscar prod"
-      - offset: 656
-        length: 14
-        placeholder_text: "# actualizar stock"
-      - offset: 1066
-        length: 65
-        placeholder_text: "# registrar op"
-      - offset: 1469
-        length: 69
-        placeholder_text: "# formatear hist"
+      - offset: 477
+        length: 62
+        placeholder_text: "# TODO: agrega al historial un diccionario con las claves:"
+      - offset: 871
+        length: 71
+        placeholder_text: "# TODO: si historial esta vacio, retorna \\"Sin operaciones todavia.\\""
   - name: tests/test_task.py
     visible: false
     propagatable: false

@@ -1,5 +1,5 @@
 type: edu
-custom_name: Fibonacci con recursión
+custom_name: "Fibonacci con recursión"
 files:
   - name: main.py
     visible: true

@@ -4,8 +4,8 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 419
-        length: 57
+      - offset: 415
+        length: 61
         placeholder_text: "# TODO: simula las operaciones y retorna la lista de gets"
   - name: tests/test.py
     visible: false

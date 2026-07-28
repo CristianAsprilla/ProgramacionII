@@ -4,12 +4,12 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 502
-        length: 74
-        placeholder_text: "# TODO: validar y agregar la nota a la lista"
-      - offset: 831
-        length: 62
-        placeholder_text: "# TODO: formatear la lista de notas como string"
+      - offset: 498
+        length: 78
+        placeholder_text: "# TODO: implementa la validación (0 <= nota <= 100) y el append a la lista"
+      - offset: 827
+        length: 66
+        placeholder_text: "# TODO: si la lista está vacía devolvé \\"No hay notas todavía.\\""
   - name: tests/test_task.py
     visible: false
   - name: tests/__init__.py

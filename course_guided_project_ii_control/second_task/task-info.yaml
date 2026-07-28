@@ -4,21 +4,15 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 391
-        length: 14
-        placeholder_text: "# validar y add"
-      - offset: 444
-        length: 14
-        placeholder_text: "# formatear lista"
-      - offset: 779
-        length: 62
-        placeholder_text: "# calcular prom"
-      - offset: 959
-        length: 55
-        placeholder_text: "# calcular max"
-      - offset: 1132
-        length: 55
-        placeholder_text: "# calcular min"
+      - offset: 347
+        length: 97
+        placeholder_text: "# TODO: si la lista esta vacia, retorna None. Si no, retorna la suma dividido por la cantidad"
+      - offset: 651
+        length: 75
+        placeholder_text: "# TODO: si la lista esta vacia, retorna None. Si no, retorna max(notas)"
+      - offset: 933
+        length: 75
+        placeholder_text: "# TODO: si la lista esta vacia, retorna None. Si no, retorna min(notas)"
   - name: tests/test_task.py
     visible: false
     propagatable: false

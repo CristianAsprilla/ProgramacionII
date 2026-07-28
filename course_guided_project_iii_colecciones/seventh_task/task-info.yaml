@@ -9,15 +9,13 @@ files:
         placeholder_text: "# TODO: retorna sum(catalogo.values())"
       - offset: 575
         length: 86
-        placeholder_text: "# TODO: si el catalogo esta vacio retorna 0. Si no, retorna\
-      \ valor_total / cantidad"
+        placeholder_text: "# TODO: si el catalogo esta vacio retorna 0. Si no, retorna valor_total / cantidad"
       - offset: 888
         length: 33
         placeholder_text: "# TODO: retorna len(catalogo)"
       - offset: 1200
         length: 97
-        placeholder_text: "# TODO: integra las funciones anteriores. 'mas_caro' y 'mas_barato'\
-      \ son los NOMBRES (strings)"
+        placeholder_text: "# TODO: integra las funciones anteriores. 'mas_caro' y 'mas_barato' son los NOMBRES (strings)"
   - name: tests/test_task.py
     visible: false
   - name: tests/__init__.py

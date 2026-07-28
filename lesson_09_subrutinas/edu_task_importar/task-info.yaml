@@ -1,5 +1,5 @@
 type: edu
-custom_name: Detectar y listar números primos
+custom_name: "Detectar y listar números primos"
 files:
   - name: main.py
     visible: true
@@ -7,9 +7,9 @@ files:
       - offset: 309
         length: 52
         placeholder_text: "# TODO: devuelve True si n es primo, False si no"
-      - offset: 309
-        length: 52
-        placeholder_text: "# TODO: devuelve True si n es primo, False si no"
+      - offset: 616
+        length: 77
+        placeholder_text: "# TODO: usa es_primo para construir y devolver la lista de primos hasta n"
   - name: tests/test.py
     visible: false
   - name: tests/__init__.py

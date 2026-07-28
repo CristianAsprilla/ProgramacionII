@@ -5,8 +5,8 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 54
-        placeholder_text: Lee tareas hasta FIN y muestra cuántas se registraron.
+        length: 61
+        placeholder_text: "# TODO Lee tareas hasta FIN y muestra cuántas se registraron."
   - name: tests/input.txt
     visible: false
   - name: tests/output.txt

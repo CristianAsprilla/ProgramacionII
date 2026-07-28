@@ -4,8 +4,8 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 94
-        length: 64
+      - offset: 90
+        length: 68
         placeholder_text: "# TODO: lee dos versiones de codigo (separadas por linea vacia),"
   - name: tests/output.txt
     visible: false

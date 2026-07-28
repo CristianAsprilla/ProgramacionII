@@ -6,12 +6,10 @@ files:
     placeholders:
       - offset: 295
         length: 78
-        placeholder_text: "# TODO: abre el archivo en modo escritura y escribe cada nota\
-      \ en una linea"
+        placeholder_text: "# TODO: abre el archivo en modo escritura y escribe cada nota en una linea"
       - offset: 603
         length: 100
-        placeholder_text: "# TODO: abre el archivo en modo lectura, lee cada linea, conviertela\
-      \ a float, y retorna la lista"
+        placeholder_text: "# TODO: abre el archivo en modo lectura, lee cada linea, conviertela a float, y retorna la lista"
   - name: tests/test_task.py
     visible: false
   - name: tests/__init__.py

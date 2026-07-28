@@ -6,8 +6,7 @@ files:
     placeholders:
       - offset: 264
         length: 79
-        placeholder_text: "# TODO: implementa las funciones de la lista (agregar, buscar,\
-      \ ordenar)"
+        placeholder_text: "# TODO: implementa las funciones de la lista (agregar, buscar, ordenar)"
   - name: tests/test.py
     visible: false
   - name: tests/__init__.py

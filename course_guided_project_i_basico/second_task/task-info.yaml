@@ -4,12 +4,9 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 199
-        length: 13
-        placeholder_text: "# escribir saludo"
-      - offset: 852
-        length: 72
-        placeholder_text: "# escribir tarjeta"
+      - offset: 673
+        length: 86
+        placeholder_text: "# TODO: implementa la tarjeta completa. Usa crear_saludo() para el saludo inicial."
   - name: tests/test_task.py
     visible: false
     propagatable: false

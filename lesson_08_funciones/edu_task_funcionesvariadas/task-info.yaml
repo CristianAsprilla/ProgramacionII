@@ -1,5 +1,5 @@
 type: edu
-custom_name: Funciones de geometría y conversión de temperatura
+custom_name: "Funciones de geometría y conversión de temperatura"
 files:
   - name: main.py
     visible: true
@@ -7,9 +7,9 @@ files:
       - offset: 275
         length: 65
         placeholder_text: "# TODO: devuelve π × radio² (importa math o usa la constante)"
-      - offset: 275
-        length: 65
-        placeholder_text: "# TODO: devuelve π × radio² (importa math o usa la constante)"
+      - offset: 597
+        length: 64
+        placeholder_text: "# TODO: aplica la fórmula y devuelve el resultado en Celsius"
   - name: tests/test.py
     visible: false
   - name: tests/__init__.py

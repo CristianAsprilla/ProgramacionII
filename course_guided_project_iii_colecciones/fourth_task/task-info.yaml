@@ -4,39 +4,21 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 405
-        length: 14
-        placeholder_text: "# agregar prod"
-      - offset: 530
-        length: 14
-        placeholder_text: "# buscar prod"
-      - offset: 656
-        length: 14
-        placeholder_text: "# actualizar stock"
-      - offset: 1145
-        length: 14
-        placeholder_text: "# registrar op"
-      - offset: 1294
-        length: 14
-        placeholder_text: "# formatear hist"
-      - offset: 1567
-        length: 14
-        placeholder_text: "# apilar op"
-      - offset: 1768
-        length: 14
-        placeholder_text: "# deshacer pop"
-      - offset: 2462
-        length: 68
-        placeholder_text: "# validar y add venta"
-      - offset: 2880
-        length: 58
-        placeholder_text: "# formatear reporte"
-      - offset: 3668
-        length: 50
-        placeholder_text: "# match op"
-      - offset: 4093
-        length: 64
-        placeholder_text: "# while True"
+      - offset: 900
+        length: 95
+        placeholder_text: "# TODO: suma la cantidad a la celda correspondiente y recalcula la fila de total (indice 3)"
+      - offset: 1301
+        length: 63
+        placeholder_text: "# TODO: genera un texto con las ventas totales por producto"
+      - offset: 1453
+        length: 47
+        placeholder_text: "# TODO: imprime las opciones del menu (1-6)"
+      - offset: 1892
+        length: 83
+        placeholder_text: "# TODO: implementa la logica del menu usando las funciones de pasos anteriores:"
+      - offset: 2145
+        length: 86
+        placeholder_text: "# TODO: muestra el menu en bucle y procesa las opciones hasta que el usuario salga"
   - name: tests/test_task.py
     visible: false
     propagatable: false

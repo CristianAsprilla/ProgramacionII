@@ -1,5 +1,5 @@
 type: edu
-custom_name: Generá la serie de Fibonacci
+custom_name: "Generá la serie de Fibonacci"
 files:
   - name: main.py
     visible: true

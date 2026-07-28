@@ -7,6 +7,9 @@ files:
       - offset: 325
         length: 34
         placeholder_text: "# TODO: implementa la logica aqui"
+      - offset: 360
+        length: 64
+        placeholder_text: "# TODO: cuenta las palabras reservadas usando el modulo keyword"
   - name: tests/test.py
     visible: false
   - name: tests/__init__.py

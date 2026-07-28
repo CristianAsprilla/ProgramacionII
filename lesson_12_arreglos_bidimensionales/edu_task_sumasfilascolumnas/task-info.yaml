@@ -7,6 +7,9 @@ files:
       - offset: 29
         length: 57
         placeholder_text: "# TODO Calcula y retorna la suma de la fila indicada."
+      - offset: 132
+        length: 60
+        placeholder_text: "# TODO Calcula y retorna la suma de la columna indicada."
   - name: tests/test.py
     visible: false
   - name: tests/__init__.py

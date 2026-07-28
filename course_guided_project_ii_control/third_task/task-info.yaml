@@ -4,9 +4,15 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 1838
+      - offset: 436
+        length: 97
+        placeholder_text: "# TODO: imprime el menu con las opciones: 1=agregar, 2=listar, 3=promedio, 4=max/min, 5=salir"
+      - offset: 812
         length: 67
         placeholder_text: "# TODO: usa match/case (o if/elif) para manejar las 5 opciones."
+      - offset: 1090
+        length: 75
+        placeholder_text: "# TODO: muestra el menu en bucle, lee la opcion del usuario, ejecutala,"
   - name: tests/test_task.py
     visible: false
   - name: tests/__init__.py

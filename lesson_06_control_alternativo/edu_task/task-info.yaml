@@ -1,13 +1,12 @@
 type: edu
-custom_name: Clasifica notas del colegio (escala 1.0–5.0)
+custom_name: "Clasifica notas del colegio (escala 1.0–5.0)"
 files:
   - name: main.py
     visible: true
     placeholders:
       - offset: 557
         length: 77
-        placeholder_text: "# TODO: implementa la clasificación según la escala del colegio\
-      \ (1.0–5.0)"
+        placeholder_text: "# TODO: implementa la clasificación según la escala del colegio (1.0–5.0)"
   - name: tests/test.py
     visible: false
   - name: tests/__init__.py

@@ -4,16 +4,15 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 357
-        length: 49
+      - offset: 259
+        length: 47
         placeholder_text: "# TODO: retorna los nombres cuyo stock <= 0"
-      - offset: 594
-        length: 78
-        placeholder_text: "# TODO: retorna tuplas para los productos con stock bajo"
-      - offset: 977
-        length: 137
-        placeholder_text: "# TODO: retorna Todo en orden o un mensaje con los productos\
-      \ a reabastecer"
+      - offset: 642
+        length: 83
+        placeholder_text: "# TODO: retorna tuplas (nombre, cantidad) para los que tienen cantidad < minimo"
+      - offset: 1075
+        length: 71
+        placeholder_text: "# TODO: si no hay productos con stock bajo, retorna \\"Todo en orden\\""
   - name: tests/test_task.py
     visible: false
   - name: tests/__init__.py

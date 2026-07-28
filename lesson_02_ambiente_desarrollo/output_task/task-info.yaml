@@ -6,8 +6,7 @@ files:
     placeholders:
       - offset: 0
         length: 88
-        placeholder_text: "# TODO: lee argumentos de stdin o usa sys.version_info para\
-      \ mostrar la version de Python"
+        placeholder_text: "# TODO: lee argumentos de stdin o usa sys.version_info para mostrar la version de Python"
   - name: tests/output.txt
     visible: false
   - name: tests/input.txt

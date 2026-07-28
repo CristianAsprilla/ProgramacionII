@@ -9,8 +9,7 @@ files:
         placeholder_text: "# TODO: calcula IMC = peso / altura^2 y redondea a 2 decimales"
       - offset: 582
         length: 104
-        placeholder_text: "# TODO: retorna la categoria segun el IMC (< 18.5 bajo, < 25\
-      \ normal, < 30 sobrepeso, >= 30 obesidad)"
+        placeholder_text: "# TODO: retorna la categoria segun el IMC (< 18.5 bajo, < 25 normal, < 30 sobrepeso, >= 30 obesidad)"
   - name: tests/test_task.py
     visible: false
   - name: tests/__init__.py

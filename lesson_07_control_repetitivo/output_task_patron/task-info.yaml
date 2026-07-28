@@ -1,5 +1,5 @@
 type: output
-custom_name: Triángulo de asteriscos con for
+custom_name: "Triángulo de asteriscos con for"
 files:
   - name: main.py
     visible: true

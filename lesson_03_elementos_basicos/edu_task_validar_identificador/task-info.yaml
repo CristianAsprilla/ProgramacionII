@@ -6,8 +6,7 @@ files:
     placeholders:
       - offset: 321
         length: 72
-        placeholder_text: "# TODO: valida que el string siga las reglas de identificador\
-      \ Python"
+        placeholder_text: "# TODO: valida que el string siga las reglas de identificador Python"
   - name: tests/test.py
     visible: false
   - name: tests/__init__.py
