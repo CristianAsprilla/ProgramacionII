@@ -1,5 +1,5 @@
 type: edu
-custom_name: "Paso 2: Historial de operaciones (lista dinámica)"
+custom_name: "Paso 2: Historial de operaciones"
 files:
   - name: main.py
     visible: true
@@ -9,10 +9,9 @@ files:
         placeholder_text: "# TODO: agrega al historial un diccionario con las claves:"
       - offset: 871
         length: 71
-        placeholder_text: "# TODO: si historial esta vacio, retorna \\"Sin operaciones todavia.\\""
+        placeholder_text: "# TODO: si historial esta vacio, retorna 'Sin operaciones todavia.'"
   - name: tests/test_task.py
     visible: false
-    propagatable: false
   - name: tests/__init__.py
     visible: false
     propagatable: false

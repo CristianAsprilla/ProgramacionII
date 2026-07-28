@@ -1,12 +1,13 @@
 type: edu
-custom_name: "Contar líneas reales de código"
+custom_name: Contar líneas reales de código
 files:
   - name: main.py
     visible: true
     placeholders:
       - offset: 451
         length: 88
-        placeholder_text: "# TODO: recorre las líneas del texto y devuelve cuántas NO son vacías ni comentarios"
+        placeholder_text: "# TODO: recorre las líneas del texto y devuelve cuántas NO\
+      \ son vacías ni comentarios"
   - name: tests/test.py
     visible: false
   - name: tests/__init__.py

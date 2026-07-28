@@ -1,5 +1,5 @@
 type: edu
-custom_name: "Funciones de geometría y conversión de temperatura"
+custom_name: Funciones de geometría y conversión de temperatura
 files:
   - name: main.py
     visible: true

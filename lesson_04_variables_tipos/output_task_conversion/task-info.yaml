@@ -6,7 +6,8 @@ files:
     placeholders:
       - offset: 62
         length: 73
-        placeholder_text: "# TODO: lee un numero desde stdin y conviertelo segun el tipo actual."
+        placeholder_text: "# TODO: lee un numero desde stdin y conviertelo segun el tipo\
+      \ actual."
   - name: tests/output.txt
     visible: false
   - name: tests/input.txt

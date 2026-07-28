@@ -6,7 +6,8 @@ files:
     placeholders:
       - offset: 673
         length: 86
-        placeholder_text: "# TODO: implementa la tarjeta completa. Usa crear_saludo() para el saludo inicial."
+        placeholder_text: "# TODO: implementa la tarjeta completa. Usa crear_saludo()\
+      \ para el saludo inicial."
   - name: tests/test_task.py
     visible: false
     propagatable: false

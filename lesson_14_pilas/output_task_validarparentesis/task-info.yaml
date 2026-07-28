@@ -6,7 +6,8 @@ files:
     placeholders:
       - offset: 0
         length: 78
-        placeholder_text: "# TODO Lee una expresión con paréntesis, corchetes y llaves; usa una pila para"
+        placeholder_text: "# TODO Lee una expresión con paréntesis, corchetes y llaves;\
+      \ usa una pila para"
   - name: tests/input.txt
     visible: false
   - name: tests/output.txt

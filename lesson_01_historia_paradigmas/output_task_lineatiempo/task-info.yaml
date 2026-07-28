@@ -6,7 +6,8 @@ files:
     placeholders:
       - offset: 98
         length: 78
-        placeholder_text: "# TODO: lee anos desde stdin (uno por linea, FIN para terminar), ordenalos"
+        placeholder_text: "# TODO: lee anos desde stdin (uno por linea, FIN para terminar),\
+      \ ordenalos"
   - name: tests/output.txt
     visible: false
   - name: tests/input.txt

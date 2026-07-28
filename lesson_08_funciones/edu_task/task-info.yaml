@@ -1,5 +1,5 @@
 type: edu
-custom_name: "Calculá el factorial"
+custom_name: Calculá el factorial
 files:
   - name: main.py
     visible: true

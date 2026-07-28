@@ -1,12 +1,13 @@
 type: output
-custom_name: "Sumá del 1 hasta N"
+custom_name: Sumá del 1 hasta N
 files:
   - name: main.py
     visible: true
     placeholders:
       - offset: 0
         length: 67
-        placeholder_text: "# TODO: lee el numero y muestra el factorial calculado por un bucle"
+        placeholder_text: "# TODO: lee el numero y muestra el factorial calculado por\
+      \ un bucle"
   - name: tests/input.txt
     visible: false
   - name: tests/output.txt

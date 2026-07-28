@@ -6,10 +6,10 @@ files:
     placeholders:
       - offset: 498
         length: 78
-        placeholder_text: "# TODO: implementa la validación (0 <= nota <= 100) y el append a la lista"
+        placeholder_text: "# TODO: implementa la validacion (0 <= nota <= 100) y el append a la lista"
       - offset: 827
         length: 66
-        placeholder_text: "# TODO: si la lista está vacía devolvé \\"No hay notas todavía.\\""
+        placeholder_text: "# TODO: si la lista esta vacia devolve 'No hay notas todavia.'"
   - name: tests/test_task.py
     visible: false
   - name: tests/__init__.py

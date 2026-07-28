@@ -6,7 +6,8 @@ files:
     placeholders:
       - offset: 180
         length: 78
-        placeholder_text: "# TODO: cuenta las vocales de texto sin distinguir mayúsculas y minúsculas"
+        placeholder_text: "# TODO: cuenta las vocales de texto sin distinguir mayúsculas\
+      \ y minúsculas"
       - offset: 382
         length: 61
         placeholder_text: "# TODO: validá si el identificador empieza con guión bajo"

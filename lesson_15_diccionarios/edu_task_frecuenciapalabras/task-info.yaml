@@ -6,7 +6,8 @@ files:
     placeholders:
       - offset: 271
         length: 79
-        placeholder_text: "# TODO: divide el texto en palabras y cuenta cuantas veces aparece cada una"
+        placeholder_text: "# TODO: divide el texto en palabras y cuenta cuantas veces\
+      \ aparece cada una"
   - name: tests/test.py
     visible: false
   - name: tests/__init__.py

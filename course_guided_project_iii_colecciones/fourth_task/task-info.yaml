@@ -6,7 +6,8 @@ files:
     placeholders:
       - offset: 900
         length: 95
-        placeholder_text: "# TODO: suma la cantidad a la celda correspondiente y recalcula la fila de total (indice 3)"
+        placeholder_text: "# TODO: suma la cantidad a la celda correspondiente y recalcula\
+      \ la fila de total (indice 3)"
       - offset: 1301
         length: 63
         placeholder_text: "# TODO: genera un texto con las ventas totales por producto"
@@ -15,10 +16,12 @@ files:
         placeholder_text: "# TODO: imprime las opciones del menu (1-6)"
       - offset: 1892
         length: 83
-        placeholder_text: "# TODO: implementa la logica del menu usando las funciones de pasos anteriores:"
+        placeholder_text: "# TODO: implementa la logica del menu usando las funciones\
+      \ de pasos anteriores:"
       - offset: 2145
         length: 86
-        placeholder_text: "# TODO: muestra el menu en bucle y procesa las opciones hasta que el usuario salga"
+        placeholder_text: "# TODO: muestra el menu en bucle y procesa las opciones hasta\
+      \ que el usuario salga"
   - name: tests/test_task.py
     visible: false
     propagatable: false

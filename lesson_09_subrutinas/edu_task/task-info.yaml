@@ -1,12 +1,13 @@
 type: edu
-custom_name: "Creá un módulo de geometría"
+custom_name: Creá un módulo de geometría
 files:
   - name: main.py
     visible: true
     placeholders:
       - offset: 279
         length: 85
-        placeholder_text: "# TODO: implementa los calculos de areas y retorna la tupla (circulo, rectangulo)"
+        placeholder_text: "# TODO: implementa los calculos de areas y retorna la tupla\
+      \ (circulo, rectangulo)"
   - name: tests/test.py
     visible: false
   - name: tests/__init__.py

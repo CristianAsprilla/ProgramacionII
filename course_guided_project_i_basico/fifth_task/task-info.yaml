@@ -6,13 +6,15 @@ files:
     placeholders:
       - offset: 435
         length: 87
-        placeholder_text: "# TODO: retorna True si el nombre tiene al menos 2 caracteres y no es solo espacios"
+        placeholder_text: "# TODO: retorna True si el nombre tiene al menos 2 caracteres\
+      \ y no es solo espacios"
       - offset: 747
         length: 66
         placeholder_text: "# TODO: retorna True si la edad esta entre 5 y 100 (inclusivo)"
       - offset: 973
         length: 89
-        placeholder_text: "# TODO: usa un bucle while con validar_nombre para insistir hasta tener nombre valido"
+        placeholder_text: "# TODO: usa un bucle while con validar_nombre para insistir\
+      \ hasta tener nombre valido"
   - name: tests/test_task.py
     visible: false
   - name: tests/__init__.py

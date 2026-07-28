@@ -6,7 +6,8 @@ files:
     placeholders:
       - offset: 216
         length: 77
-        placeholder_text: "# TODO: implementa las funciones de la agenda (agregar, eliminar, listar)"
+        placeholder_text: "# TODO: implementa las funciones de la agenda (agregar, eliminar,\
+      \ listar)"
   - name: tests/test.py
     visible: false
   - name: tests/__init__.py

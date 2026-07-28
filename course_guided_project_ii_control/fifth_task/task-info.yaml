@@ -6,7 +6,8 @@ files:
     placeholders:
       - offset: 317
         length: 85
-        placeholder_text: "# TODO: recorre la lista y retorna el indice de la primera ocurrencia, o -1 si no"
+        placeholder_text: "# TODO: recorre la lista y retorna el indice de la primera\
+      \ ocurrencia, o -1 si no"
       - offset: 748
         length: 65
         placeholder_text: "# TODO: cuenta cuantas notas cumplen minimo <= nota <= maximo"

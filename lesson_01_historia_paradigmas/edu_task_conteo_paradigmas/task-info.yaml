@@ -6,7 +6,8 @@ files:
     placeholders:
       - offset: 312
         length: 78
-        placeholder_text: "# TODO: crea un diccionario vacio, recorre la lista y cuenta por paradigma"
+        placeholder_text: "# TODO: crea un diccionario vacio, recorre la lista y cuenta\
+      \ por paradigma"
   - name: tests/test.py
     visible: false
   - name: tests/__init__.py

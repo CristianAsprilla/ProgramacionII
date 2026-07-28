@@ -9,10 +9,12 @@ files:
         placeholder_text: "# TODO: usa sorted() con key=lambda item: item[1] y reverse=descendente"
       - offset: 681
         length: 93
-        placeholder_text: "# TODO: si el catalogo esta vacio retorna None. Si no, retorna el nombre con mayor precio"
+        placeholder_text: "# TODO: si el catalogo esta vacio retorna None. Si no, retorna\
+      \ el nombre con mayor precio"
       - offset: 1049
         length: 93
-        placeholder_text: "# TODO: si el catalogo esta vacio retorna None. Si no, retorna el nombre con menor precio"
+        placeholder_text: "# TODO: si el catalogo esta vacio retorna None. Si no, retorna\
+      \ el nombre con menor precio"
   - name: tests/test_task.py
     visible: false
   - name: tests/__init__.py

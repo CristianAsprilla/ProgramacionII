@@ -1,12 +1,13 @@
 type: edu
-custom_name: "Calculadora de IMC con if y elif"
+custom_name: Calculadora de IMC con if y elif
 files:
   - name: main.py
     visible: true
     placeholders:
       - offset: 644
         length: 77
-        placeholder_text: "# TODO: calcula el IMC y devuelve la categoría según los rangos de la OMS"
+        placeholder_text: "# TODO: calcula el IMC y devuelve la categoría según los rangos\
+      \ de la OMS"
   - name: tests/test.py
     visible: false
   - name: tests/__init__.py
