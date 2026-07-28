@@ -11,7 +11,7 @@ files:
         length: 71
         placeholder_text: "# TODO: si historial esta vacio, retorna 'Sin operaciones todavia.'"
   - name: tests/test_task.py
-    visible: false
+    visible: true
   - name: tests/__init__.py
-    visible: false
+    visible: true
     propagatable: false

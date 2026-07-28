@@ -6,10 +6,9 @@ files:
     placeholders:
       - offset: 363
         length: 74
-        placeholder_text: "# TODO: calcula el area (base * altura) y perimetro (2 * (base\
-      \ + altura))"
+        placeholder_text: "# TODO: calcula el area (base * altura) y perimetro (2 * (base + altura))"
   - name: tests/test.py
-    visible: false
+    visible: true
   - name: tests/__init__.py
-    visible: false
+    visible: true
     propagatable: false

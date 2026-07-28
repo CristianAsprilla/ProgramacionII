@@ -8,6 +8,6 @@ files:
         length: 68
         placeholder_text: "# TODO: lee dos versiones de codigo (separadas por linea vacia),"
   - name: tests/output.txt
-    visible: false
+    visible: true
   - name: tests/input.txt
-    visible: false
+    visible: true

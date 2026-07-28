@@ -8,7 +8,7 @@ files:
         length: 49
         placeholder_text: "# TODO: calcula la suma de 1 a n con un bucle"
   - name: tests/test.py
-    visible: false
+    visible: true
   - name: tests/__init__.py
-    visible: false
+    visible: true
     propagatable: false

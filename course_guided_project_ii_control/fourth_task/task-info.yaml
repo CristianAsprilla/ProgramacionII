@@ -6,10 +6,9 @@ files:
     placeholders:
       - offset: 324
         length: 80
-        placeholder_text: "# TODO: usa sorted() con reverse=descendente para retornar\
-      \ la lista ordenada"
+        placeholder_text: "# TODO: usa sorted() con reverse=descendente para retornar la lista ordenada"
   - name: tests/test_task.py
-    visible: false
+    visible: true
   - name: tests/__init__.py
-    visible: false
+    visible: true
     propagatable: false

@@ -8,6 +8,6 @@ files:
         length: 41
         placeholder_text: "# TODO: completa la lectura y la salida."
   - name: tests/input.txt
-    visible: false
+    visible: true
   - name: tests/output.txt
-    visible: false
+    visible: true

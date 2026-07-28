@@ -6,13 +6,12 @@ files:
     placeholders:
       - offset: 172
         length: 78
-        placeholder_text: "# TODO: usa input() para leer el nombre y elimina espacios\
-      \ al inicio/final"
+        placeholder_text: "# TODO: usa input() para leer el nombre y elimina espacios al inicio/final"
       - offset: 390
         length: 64
         placeholder_text: "# TODO: usa input() para leer la edad y conviertela a entero"
   - name: tests/test_task.py
-    visible: false
+    visible: true
   - name: tests/__init__.py
-    visible: false
+    visible: true
     propagatable: false

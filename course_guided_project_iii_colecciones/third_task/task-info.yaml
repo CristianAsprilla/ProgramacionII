@@ -11,8 +11,8 @@ files:
         length: 48
         placeholder_text: "# TODO: si la pila esta vacia, retorna None."
   - name: tests/test_task.py
-    visible: false
+    visible: true
     propagatable: false
   - name: tests/__init__.py
-    visible: false
+    visible: true
     propagatable: false

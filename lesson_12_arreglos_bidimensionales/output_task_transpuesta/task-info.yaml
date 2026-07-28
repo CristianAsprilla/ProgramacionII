@@ -8,6 +8,6 @@ files:
         length: 54
         placeholder_text: "# TODO Lee tres filas y muestra la matriz transpuesta."
   - name: tests/input.txt
-    visible: false
+    visible: true
   - name: tests/output.txt
-    visible: false
+    visible: true

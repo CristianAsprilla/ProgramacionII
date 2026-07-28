@@ -6,10 +6,9 @@ files:
     placeholders:
       - offset: 281
         length: 108
-        placeholder_text: "# TODO: ordena la lista y devuelve el elemento central (o el\
-      \ promedio de los dos centrales si son pares)"
+        placeholder_text: "# TODO: ordena la lista y devuelve el elemento central (o el promedio de los dos centrales si son pares)"
   - name: tests/test.py
-    visible: false
+    visible: true
   - name: tests/__init__.py
-    visible: false
+    visible: true
     propagatable: false

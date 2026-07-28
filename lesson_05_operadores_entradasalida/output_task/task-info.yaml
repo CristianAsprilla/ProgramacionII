@@ -8,8 +8,8 @@ files:
         length: 65
         placeholder_text: "# TODO: lee el nombre y la edad desde stdin, y muestra un saludo"
   - name: tests/__init__.py
-    visible: false
+    visible: true
   - name: tests/input.txt
-    visible: false
+    visible: true
   - name: tests/output.txt
-    visible: false
+    visible: true

@@ -8,7 +8,7 @@ files:
         length: 63
         placeholder_text: "# TODO: busca el ultimo punto y retorna lo que esta despues"
   - name: tests/test.py
-    visible: false
+    visible: true
   - name: tests/__init__.py
-    visible: false
+    visible: true
     propagatable: false

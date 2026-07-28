@@ -11,7 +11,7 @@ files:
         length: 60
         placeholder_text: "# TODO Calcula y retorna la suma de la columna indicada."
   - name: tests/test.py
-    visible: false
+    visible: true
   - name: tests/__init__.py
-    visible: false
+    visible: true
     propagatable: false

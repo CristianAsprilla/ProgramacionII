@@ -9,10 +9,9 @@ files:
         placeholder_text: "# TODO Retorna los elementos mayores que n."
       - offset: 115
         length: 72
-        placeholder_text: "# TODO Retorna una nueva lista con cada elemento repetido dos\
-      \ veces."
+        placeholder_text: "# TODO Retorna una nueva lista con cada elemento repetido dos veces."
   - name: tests/test.py
-    visible: false
+    visible: true
   - name: tests/__init__.py
-    visible: false
+    visible: true
     propagatable: false

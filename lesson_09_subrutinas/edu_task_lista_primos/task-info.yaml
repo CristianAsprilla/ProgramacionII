@@ -8,7 +8,7 @@ files:
         length: 59
         placeholder_text: "# TODO: usa es_primo() o un bucle para generar la lista"
   - name: tests/test.py
-    visible: false
+    visible: true
   - name: tests/__init__.py
-    visible: false
+    visible: true
     propagatable: false

@@ -6,10 +6,9 @@ files:
     placeholders:
       - offset: 263
         length: 72
-        placeholder_text: "# TODO: devuelve un diccionario con los datos del programa\
-      \ academico"
+        placeholder_text: "# TODO: devuelve un diccionario con los datos del programa academico"
   - name: tests/test.py
-    visible: false
+    visible: true
   - name: tests/__init__.py
-    visible: false
+    visible: true
     propagatable: false

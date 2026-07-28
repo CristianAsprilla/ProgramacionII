@@ -8,6 +8,6 @@ files:
         length: 60
         placeholder_text: "# TODO Lee registros nombre,edad y muestra la persona mayor."
   - name: tests/input.txt
-    visible: false
+    visible: true
   - name: tests/output.txt
-    visible: false
+    visible: true

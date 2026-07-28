@@ -8,7 +8,7 @@ files:
         length: 57
         placeholder_text: "# TODO: extrae major y minor, retorna True si >= 3.10"
   - name: tests/test.py
-    visible: false
+    visible: true
   - name: tests/__init__.py
-    visible: false
+    visible: true
     propagatable: false

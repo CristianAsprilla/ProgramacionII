@@ -6,10 +6,9 @@ files:
     placeholders:
       - offset: 192
         length: 73
-        placeholder_text: "# TODO: implementa la suma de todos los elementos retornando\
-      \ el total"
+        placeholder_text: "# TODO: implementa la suma de todos los elementos retornando el total"
   - name: tests/test.py
-    visible: false
+    visible: true
   - name: tests/__init__.py
-    visible: false
+    visible: true
     propagatable: false

@@ -8,7 +8,7 @@ files:
         length: 66
         placeholder_text: "# TODO: suma los elementos matriz[i][n-1-i] para i en range(n)"
   - name: tests/test.py
-    visible: false
+    visible: true
   - name: tests/__init__.py
-    visible: false
+    visible: true
     propagatable: false

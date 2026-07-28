@@ -8,6 +8,6 @@ files:
         length: 57
         placeholder_text: "# TODO: lee los numeros y calcula el promedio de la lista"
   - name: tests/input.txt
-    visible: false
+    visible: true
   - name: tests/output.txt
-    visible: false
+    visible: true

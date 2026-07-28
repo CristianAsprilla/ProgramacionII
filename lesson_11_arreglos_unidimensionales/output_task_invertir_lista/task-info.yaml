@@ -8,6 +8,6 @@ files:
         length: 70
         placeholder_text: "# TODO: lee numeros desde stdin (uno por linea, FIN para terminar)"
   - name: tests/output.txt
-    visible: false
+    visible: true
   - name: tests/input.txt
-    visible: false
+    visible: true

@@ -8,7 +8,7 @@ files:
         length: 54
         placeholder_text: "# TODO: implementa la inversion sin usar reverse()"
   - name: tests/test.py
-    visible: false
+    visible: true
   - name: tests/__init__.py
-    visible: false
+    visible: true
     propagatable: false

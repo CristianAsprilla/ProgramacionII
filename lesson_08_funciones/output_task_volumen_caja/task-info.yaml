@@ -8,6 +8,6 @@ files:
         length: 56
         placeholder_text: "# TODO: calcula el volumen como largo * ancho * alto"
   - name: tests/output.txt
-    visible: false
+    visible: true
   - name: tests/input.txt
-    visible: false
+    visible: true

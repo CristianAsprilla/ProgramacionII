@@ -6,18 +6,15 @@ files:
     placeholders:
       - offset: 354
         length: 83
-        placeholder_text: "# TODO: para cada columna, suma los valores. Retorna una lista\
-      \ con esos totales"
+        placeholder_text: "# TODO: para cada columna, suma los valores. Retorna una lista con esos totales"
       - offset: 692
         length: 98
-        placeholder_text: "# TODO: si la matriz esta vacia retorna -1. Si no, retorna\
-      \ el indice de la fila con mayor suma"
+        placeholder_text: "# TODO: si la matriz esta vacia retorna -1. Si no, retorna el indice de la fila con mayor suma"
       - offset: 1049
         length: 124
-        placeholder_text: "# TODO: retorna el promedio de los promedios diarios (suma\
-      \ los promedios de cada fila, dividido por la cantidad de dias)"
+        placeholder_text: "# TODO: retorna el promedio de los promedios diarios (suma los promedios de cada fila, dividido por la cantidad de dias)"
   - name: tests/test_task.py
-    visible: false
+    visible: true
   - name: tests/__init__.py
-    visible: false
+    visible: true
     propagatable: false

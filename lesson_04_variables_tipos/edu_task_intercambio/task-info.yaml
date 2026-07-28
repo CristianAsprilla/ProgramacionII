@@ -8,7 +8,7 @@ files:
         length: 46
         placeholder_text: "# TODO: devuelve las variables intercambiadas"
   - name: tests/test.py
-    visible: false
+    visible: true
   - name: tests/__init__.py
-    visible: false
+    visible: true
     propagatable: false

@@ -8,7 +8,7 @@ files:
         length: 58
         placeholder_text: "# TODO: cuenta lineas que no son comentarios ni vacias"
   - name: tests/test.py
-    visible: false
+    visible: true
   - name: tests/__init__.py
-    visible: false
+    visible: true
     propagatable: false

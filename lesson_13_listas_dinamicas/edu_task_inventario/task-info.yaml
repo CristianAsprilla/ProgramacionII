@@ -6,8 +6,7 @@ files:
     placeholders:
       - offset: 226
         length: 85
-        placeholder_text: "# TODO Agrega un producto nuevo al inventario (verifica que\
-      \ el nombre no exista)."
+        placeholder_text: "# TODO Agrega un producto nuevo al inventario (verifica que el nombre no exista)."
       - offset: 353
         length: 64
         placeholder_text: "# TODO Descuenta la cantidad vendida del stock del producto."
@@ -18,7 +17,7 @@ files:
         length: 70
         placeholder_text: "# TODO Devuelve una copia de la lista de productos del inventario."
   - name: tests/test.py
-    visible: false
+    visible: true
   - name: tests/__init__.py
-    visible: false
+    visible: true
     propagatable: false

@@ -8,7 +8,7 @@ files:
         length: 62
         placeholder_text: "# TODO: retorna una nueva lista con solo los numeros pares"
   - name: tests/test.py
-    visible: false
+    visible: true
   - name: tests/__init__.py
-    visible: false
+    visible: true
     propagatable: false

@@ -1,14 +1,13 @@
 type: output
-custom_name: Raíz cuadrada con el módulo math
+custom_name: "Raíz cuadrada con el módulo math"
 files:
   - name: main.py
     visible: true
     placeholders:
       - offset: 12
         length: 77
-        placeholder_text: "# TODO: lee un número N desde la entrada estándar e imprime\
-      \ su raíz cuadrada"
+        placeholder_text: "# TODO: lee un número N desde la entrada estándar e imprime su raíz cuadrada"
   - name: tests/input.txt
-    visible: false
+    visible: true
   - name: tests/output.txt
-    visible: false
+    visible: true

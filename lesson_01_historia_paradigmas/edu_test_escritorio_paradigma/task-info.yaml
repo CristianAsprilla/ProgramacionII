@@ -8,7 +8,7 @@ files:
         length: 68
         placeholder_text: "# TODO: analiza el codigo y predice el output segun el paradigma"
   - name: tests/test.py
-    visible: false
+    visible: true
   - name: tests/__init__.py
-    visible: false
+    visible: true
     propagatable: false

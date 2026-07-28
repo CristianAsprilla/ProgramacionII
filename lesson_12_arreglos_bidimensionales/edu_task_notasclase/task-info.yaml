@@ -6,10 +6,9 @@ files:
     placeholders:
       - offset: 304
         length: 81
-        placeholder_text: "# TODO: aplana la matriz, calcula las 3 estadisticas y retorna\
-      \ el diccionario"
+        placeholder_text: "# TODO: aplana la matriz, calcula las 3 estadisticas y retorna el diccionario"
   - name: tests/test.py
-    visible: false
+    visible: true
   - name: tests/__init__.py
-    visible: false
+    visible: true
     propagatable: false

@@ -1,14 +1,13 @@
 type: output
-custom_name: Estado del clima en Panamá con match/case
+custom_name: "Estado del clima en Panamá con match/case"
 files:
   - name: main.py
     visible: true
     placeholders:
       - offset: 22
         length: 71
-        placeholder_text: "# TODO: usa match/case para traducir el código a la estació\
-      n correcta."
+        placeholder_text: "# TODO: usa match/case para traducir el código a la estación correcta."
   - name: tests/input.txt
-    visible: false
+    visible: true
   - name: tests/output.txt
-    visible: false
+    visible: true

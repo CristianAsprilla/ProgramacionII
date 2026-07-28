@@ -11,7 +11,7 @@ files:
         length: 64
         placeholder_text: "# TODO: cuenta las palabras reservadas usando el modulo keyword"
   - name: tests/test.py
-    visible: false
+    visible: true
   - name: tests/__init__.py
-    visible: false
+    visible: true
     propagatable: false

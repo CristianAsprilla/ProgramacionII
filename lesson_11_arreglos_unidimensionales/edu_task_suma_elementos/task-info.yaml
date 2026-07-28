@@ -8,7 +8,7 @@ files:
         length: 50
         placeholder_text: "# TODO: retorna la suma de todos los elementos"
   - name: tests/test.py
-    visible: false
+    visible: true
   - name: tests/__init__.py
-    visible: false
+    visible: true
     propagatable: false

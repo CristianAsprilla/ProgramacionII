@@ -8,8 +8,8 @@ files:
         length: 46
         placeholder_text: "# TODO: implementa el saludo de bienvenida"
   - name: tests/test_task.py
-    visible: false
+    visible: true
     propagatable: false
   - name: tests/__init__.py
-    visible: false
+    visible: true
     propagatable: false

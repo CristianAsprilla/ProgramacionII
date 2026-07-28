@@ -1,15 +1,14 @@
 type: edu
-custom_name: Factorial calculado con un ciclo
+custom_name: "Factorial calculado con un ciclo"
 files:
   - name: main.py
     visible: true
     placeholders:
       - offset: 350
         length: 64
-        placeholder_text: "# TODO: calcula n! con un ciclo (for o while), sin recursió\
-      n"
+        placeholder_text: "# TODO: calcula n! con un ciclo (for o while), sin recursión"
   - name: tests/test.py
-    visible: false
+    visible: true
   - name: tests/__init__.py
-    visible: false
+    visible: true
     propagatable: false

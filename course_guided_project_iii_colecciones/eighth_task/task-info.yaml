@@ -9,14 +9,12 @@ files:
         placeholder_text: "# TODO: retorna los nombres cuyo stock <= 0"
       - offset: 642
         length: 83
-        placeholder_text: "# TODO: retorna tuplas (nombre, cantidad) para los que tienen\
-      \ cantidad < minimo"
+        placeholder_text: "# TODO: retorna tuplas (nombre, cantidad) para los que tienen cantidad < minimo"
       - offset: 1075
         length: 71
-        placeholder_text: "# TODO: si no hay productos con stock bajo, retorna 'Todo en\
-      \ orden'"
+        placeholder_text: "# TODO: si no hay productos con stock bajo, retorna 'Todo en orden'"
   - name: tests/test_task.py
-    visible: false
+    visible: true
   - name: tests/__init__.py
-    visible: false
+    visible: true
     propagatable: false

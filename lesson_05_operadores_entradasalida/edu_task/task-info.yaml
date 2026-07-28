@@ -6,13 +6,12 @@ files:
     placeholders:
       - offset: 416
         length: 72
-        placeholder_text: "# TODO: calcula el IMC y devolvelo redondeado a 2 decimales\
-      \ con round()"
+        placeholder_text: "# TODO: calcula el IMC y devolvelo redondeado a 2 decimales con round()"
       - offset: 701
         length: 47
         placeholder_text: "# TODO: implementa los rangos con if/elif/else"
   - name: tests/test.py
-    visible: false
+    visible: true
   - name: tests/__init__.py
-    visible: false
+    visible: true
     propagatable: false

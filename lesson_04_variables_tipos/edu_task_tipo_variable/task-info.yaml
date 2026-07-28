@@ -8,7 +8,7 @@ files:
         length: 59
         placeholder_text: "# TODO: detecta el tipo y retorna el nombre como string"
   - name: tests/test.py
-    visible: false
+    visible: true
   - name: tests/__init__.py
-    visible: false
+    visible: true
     propagatable: false

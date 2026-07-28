@@ -11,7 +11,7 @@ files:
         length: 71
         placeholder_text: "# TODO: retorna una lista con los nombres cuyo precio <= precio_max"
   - name: tests/test_task.py
-    visible: false
+    visible: true
   - name: tests/__init__.py
-    visible: false
+    visible: true
     propagatable: false

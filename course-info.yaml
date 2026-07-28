@@ -35,10 +35,14 @@ content:
   - course_guided_project_iii_colecciones
 additional_files:
   - name: LICENSE
+    visible: true
   - name: requirements.txt
+    visible: true
     is_binary: true
   - name: README.md
+    visible: true
   - name: COLABORADORES.md
     visible: true
   - name: MARKETPLACE.md
+    visible: true
 yaml_version: 5
