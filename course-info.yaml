@@ -39,4 +39,5 @@ additional_files:
     is_binary: true
   - name: README.md
   - name: COLABORADORES.md
+  - name: MARKETPLACE.md
 yaml_version: 5

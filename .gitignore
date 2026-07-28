@@ -3,6 +3,10 @@
 .coursecreator/
 .remember/
 
+# Plugin JBA metadata local (regenerated on every index)
+**/task-remote-info.yaml
+**/lesson-remote-info.yaml
+
 # Python
 __pycache__/
 *.py[cod]
