@@ -14,8 +14,16 @@ def clasificar_paradigma(codigo):
         str: "imperativo", "funcional", "poo" u "orientado a objetos"
              segun las palabras clave encontradas.
     """
-    # TODO: implementa la deteccion de paradigma basandote en palabras clave
-    return ""
+    # Detecta POO primero (class + self o def __init__)
+    if "class " in codigo and ("self" in codigo or "__init__" in codigo):
+        return "poo"
+    # Detecta funcional (lambda, map, filter, reduce)
+    if any(kw in codigo for kw in ("lambda ", "map(", "filter(", "reduce(")):
+        return "funcional"
+    # Detecta imperativo (for, while, if, asignacion)
+    if any(kw in codigo for kw in ("for ", "while ", "if ", "=")):
+        return "imperativo"
+    return "imperativo"
 
 
 if __name__ == "__main__":

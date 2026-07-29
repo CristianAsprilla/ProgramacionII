@@ -1,25 +1,26 @@
-"""Cuenta paradigmas de programacion en una lista de lenguajes."""
+"""Cuenta lenguajes por paradigma."""
 
 
 def contar_paradigmas(lenguajes):
     """Cuenta cuantos lenguajes hay por cada paradigma.
 
     Args:
-        lenguajes (list): lista de tuplas (lenguaje, paradigma).
+        lenguajes (list): lista de tuplas (nombre, paradigma).
 
     Returns:
-        dict: diccionario con el conteo por paradigma.
+        dict: diccionario con paradigma como clave y conteo como valor.
     """
-    # TODO: crea un diccionario vacio, recorre la lista y cuenta por paradigma
     conteo = {}
+    for nombre, paradigma in lenguajes:
+        conteo[paradigma] = conteo.get(paradigma, 0) + 1
     return conteo
 
 
 if __name__ == "__main__":
-    ejemplo = [
-        ("Python", "multiparadigma"),
-        ("Haskell", "funcional"),
+    datos = [
         ("C", "imperativo"),
-        ("Python", "multiparadigma"),
+        ("Java", "poo"),
+        ("Python", "multi-paradigma"),
+        ("Haskell", "funcional"),
     ]
-    print(contar_paradigmas(ejemplo))
+    print(contar_paradigmas(datos))

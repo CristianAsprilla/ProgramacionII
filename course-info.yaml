@@ -12,6 +12,8 @@ summary: "Curso de Programación II del Bachillerato Técnico de Panamá, alinea
   \ es Python, elegido por su legibilidad y por su carácter multi-paradigma. Las competencias\
   \ trabajadas son: pensamiento lógico-matemático, tratamiento de la información y\
   \ competencia digital y aprender a aprender."
+vendor:
+  name: Cristian Asprilla
 programming_language: Python
 environment: unittest
 content:

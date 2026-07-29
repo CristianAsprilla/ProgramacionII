@@ -1,22 +1,33 @@
-"""Predice el output de fragmentos de codigo por paradigma."""
+"""Prueba de escritorio: predice el output de un fragmento de codigo."""
 
 
-def predecir_output(codigo, lenguaje):
-    """Predice que imprime un fragmento segun su paradigma.
+def predecir_output(codigo, lenguaje="python"):
+    """Predice el output o paradigma de un fragmento de codigo.
 
     Args:
         codigo (str): codigo fuente.
-        lenguaje (str): "python", "javascript" o "rust".
+        lenguaje (str): lenguaje de programacion (por defecto python).
 
     Returns:
-        str: descripcion del output esperado.
+        str: descripcion del output esperado o paradigma detectado.
     """
-    # TODO: analiza el codigo y predice el output segun el paradigma
-    # Si ves "class" es POO, "lambda" es funcional, etc.
-    return ""
+    # Detecta POO
+    if "class " in codigo and ("self" in codigo or "__init__" in codigo):
+        return "poo: el codigo define una clase"
+    # Detecta funcional
+    if any(kw in codigo for kw in ("lambda ", "map(", "filter(", "reduce(")):
+        return "funcional: usa funciones de orden superior"
+    # Detecta condicionales
+    if "if " in codigo and "else" in codigo:
+        return "imperativo con control de flujo"
+    # Detecta bucles
+    if "for " in codigo or "while " in codigo:
+        return "imperativo con bucle"
+    # Default
+    return "imperativo"
 
 
 if __name__ == "__main__":
-    # Ejemplo: este codigo es POO
-    codigo = "class Coche:\n    def arrancar(self):\n        print('Arrancando')"
-    print(predecir_output(codigo, "python"))
+    print(predecir_output("x = 1"))
+    print(predecir_output("class Coche:\n    def arrancar(self):"))
+    print(predecir_output("numeros = list(map(lambda x: x*2, [1,2,3]))"))
