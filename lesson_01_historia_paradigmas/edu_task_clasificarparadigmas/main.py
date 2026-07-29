@@ -12,7 +12,7 @@ def clasificar_paradigma(codigo):
 
     Returns:
         str: "imperativo", "funcional", "poo" u "orientado a objetos"
-             segun las palabras clave encontradas.
+                                                    segun las palabras clave encontradas.
     """
     # TODO: implementa la deteccion de paradigma basandote en palabras clave
     return ""

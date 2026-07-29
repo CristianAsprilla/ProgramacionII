@@ -54,8 +54,8 @@ class TestCase(unittest.TestCase):
         # 'if' dentro de 'calificacion_final' NO debe contar como keyword
         # 'or' dentro de 'reporte' NO debe contar como keyword
         lineas = ["El formato es importante para la revision",
-                 "calificacion_final = 95",
-                 "reporte_notas = [80, 90, 75]"]
+                                                                    "calificacion_final = 95",
+                                                                    "reporte_notas = [80, 90, 75]"]
         self.assertEqual(
             0,
             contar_palabras_reservadas(lineas),

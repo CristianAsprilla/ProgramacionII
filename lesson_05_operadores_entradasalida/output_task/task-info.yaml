@@ -5,7 +5,7 @@ files:
     visible: true
     placeholders:
       - offset: 118
-        length: 65
+        length: 68
         placeholder_text: "# TODO: lee el nombre y la edad desde stdin, y muestra un saludo"
   - name: tests/__init__.py
     visible: true

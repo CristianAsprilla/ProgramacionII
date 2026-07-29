@@ -4,11 +4,11 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 325
-        length: 34
+      - offset: 352
+        length: 37
         placeholder_text: "# TODO: implementa la logica aqui"
-      - offset: 360
-        length: 64
+      - offset: 390
+        length: 67
         placeholder_text: "# TODO: cuenta las palabras reservadas usando el modulo keyword"
   - name: tests/test.py
     visible: true

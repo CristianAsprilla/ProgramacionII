@@ -4,7 +4,7 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 445
+      - offset: 484
         length: 76
         placeholder_text: "# TODO: implementa la deteccion de paradigma basandote en palabras clave"
   - name: tests/test.py

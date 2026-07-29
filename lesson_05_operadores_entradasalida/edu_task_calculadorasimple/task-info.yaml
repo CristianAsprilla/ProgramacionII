@@ -4,8 +4,8 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 242
-        length: 81
+      - offset: 254
+        length: 84
         placeholder_text: "# TODO: calcula el resultado según la operación; división por cero devuelve None"
   - name: tests/test.py
     visible: true

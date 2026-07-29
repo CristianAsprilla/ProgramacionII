@@ -4,8 +4,8 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 363
-        length: 74
+      - offset: 393
+        length: 77
         placeholder_text: "# TODO: calcula el area (base * altura) y perimetro (2 * (base + altura))"
   - name: tests/test.py
     visible: true

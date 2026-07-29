@@ -10,10 +10,10 @@ import sys
 
 
 def validar_version_python(version_info=sys.version_info):
- """Indica si la versión recibida es compatible con el curso."""
- # TODO: validá que sys.version_info >= (3, 10)
- return False
+    """Indica si la versión recibida es compatible con el curso."""
+    # TODO: validá que sys.version_info >= (3, 10)
+    return False
 
 
 if __name__ == "__main__":
- print(validar_version_python())
+    print(validar_version_python())

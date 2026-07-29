@@ -9,7 +9,7 @@ def categoria_por_ano(ano):
 
     Returns:
         str: 'antiguo' (antes de 1990), 'moderno' (1990-2010),
-             'reciente' (despues de 2010).
+                                                    'reciente' (despues de 2010).
     """
     # TODO: implementa la clasificacion segun el rango del ano
     return ""

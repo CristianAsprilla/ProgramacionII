@@ -4,8 +4,8 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 140
-        length: 46
+      - offset: 143
+        length: 49
         placeholder_text: "# TODO: devuelve las variables intercambiadas"
   - name: tests/test.py
     visible: true

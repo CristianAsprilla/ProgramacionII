@@ -4,7 +4,7 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 287
+      - offset: 326
         length: 44
         placeholder_text: "# TODO: clasifica segun el rango de edad"
   - name: tests/test.py

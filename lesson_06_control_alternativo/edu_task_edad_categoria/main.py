@@ -9,7 +9,7 @@ def clasificar_edad(edad):
 
     Returns:
         str: 'nino' (0-12), 'adolescente' (13-17), 'adulto' (18-64),
-             'adulto mayor' (65+).
+                                                    'adulto mayor' (65+).
     """
     # TODO: clasifica segun el rango de edad
     return ""

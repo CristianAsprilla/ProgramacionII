@@ -2,5 +2,5 @@
 import sys
 
 if __name__ == '__main__':
- # mostrar la version de Python
- print(sys.version_info)
+    # mostrar la version de Python
+    print(sys.version_info)

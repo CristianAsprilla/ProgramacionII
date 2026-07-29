@@ -6,7 +6,7 @@ class TestCalcularPromedio(unittest.TestCase):
 
     def test_promedio_lista_vacia(self):
         self.assertIsNone(calcular_promedio([]),
-                          msg="Lista vacía debe devolver None")
+                                                                                                        msg="Lista vacía debe devolver None")
 
     def test_promedio_un_solo_elemento(self):
         self.assertEqual(calcular_promedio([85]), 85)

@@ -4,11 +4,11 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 416
-        length: 72
+      - offset: 449
+        length: 75
         placeholder_text: "# TODO: calcula el IMC y devolvelo redondeado a 2 decimales con round()"
-      - offset: 701
-        length: 47
+      - offset: 758
+        length: 50
         placeholder_text: "# TODO: implementa los rangos con if/elif/else"
   - name: tests/test.py
     visible: true

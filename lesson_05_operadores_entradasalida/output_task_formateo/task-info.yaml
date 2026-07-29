@@ -5,7 +5,7 @@ files:
     visible: true
     placeholders:
       - offset: 79
-        length: 41
+        length: 44
         placeholder_text: "# TODO: completa la lectura y la salida."
   - name: tests/input.txt
     visible: true

@@ -16,7 +16,7 @@ def fahrenheit_a_celsius(f: float) -> float:
 
     Fórmula: celsius = (f - 32) × 5/9
     Ejemplo: fahrenheit_a_celsius(32) == 0
-             fahrenheit_a_celsius(212) == 100
+                                                    fahrenheit_a_celsius(212) == 100
     """
     # TODO: aplica la fórmula y devuelve el resultado en Celsius
     return 0.0

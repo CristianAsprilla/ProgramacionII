@@ -4,8 +4,8 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 465
-        length: 47
+      - offset: 468
+        length: 50
         placeholder_text: "# TODO: validá que sys.version_info >= (3, 10)"
   - name: tests/test.py
     visible: true

@@ -4,7 +4,7 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 326
+      - offset: 365
         length: 62
         placeholder_text: "# TODO: implementa la clasificacion segun el rango del ano"
   - name: tests/test.py
